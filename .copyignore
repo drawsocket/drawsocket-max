@@ -1,0 +1,8 @@
+.env
+.git
+.DS_Store
+.gitignore
+.gitmodules
+node_modules
+*.sh
+*.tar.gz
