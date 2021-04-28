@@ -1,0 +1,13 @@
+{
+    "author": "HfMT Hamburg",
+    "authors": [
+        "Rama Gottfried"
+    ],
+    "description": "platform for synchronized browser display",
+    "homepatcher": "drawsocket.maxhelp",
+    "max_version_max": "none",
+    "max_version_min": "8.1.0",
+    "name": "drawsocket",
+    "version": "",
+    "website": "https://github.com/drawsocket/drawsocket-max"
+}

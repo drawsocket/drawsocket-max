@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="drawsocket" module="drawsocket">
+
+	<digest>
+		A Max/node.js based server/client system for drawing to web-browsers.
+	</digest>
+
+	<description>
+		<o>drawsocket</o> is an abstraction that uses the CNMAT Odot library and a set of JS scripts, loaded by the <o>node.script</o> object (see inside the abstraction for more info).
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Rama Gottfried, Hochschule für Musik und Theater Hamburg</metadata>
+		<metadata name="tag">drawsocket</metadata>
+	</metadatalist>
+
+<!--DISCUSSION-->
+	<discussion>
+		See the <link type="vignette" module="drawsocket" name="Drawsocket_API">Drawsocket API</link> guide for usage details.
+	</discussion>
+
+
+ <!--ARGUMENTS-->
+    <objarglist>
+        <objarg name="html_root" optional="1" type="symbol">
+            <digest>Sets a root assets folder. Only takes effect on start up.</digest>
+        </objarg>
+		<objarg name="port" optional="1" type="int">
+            <digest>Sets the server port number. Only takes effect on start up.</digest>
+        </objarg>
+    </objarglist>
+
+	<attributelist>
+
+		<attribute name="autostart" get='0' set='1' type="int" size="1">
+			<digest>1/0 starts drawsocket on load</digest>
+			<description>1/0 starts drawsocket on load.</description>
+		</attribute>
+
+		
+		<attribute name='html_root' get='0' set='1' type='symbol' size='1' >
+            <digest>sets a root assets folder</digest>
+			<description>sets a root assets folder. Only takes effect on start up.</description>
+        </attribute>
+
+		<attribute name="html_template" get='0' set='1' type="int" size="1">
+			<digest>sets default html page</digest>
+			<description>sets default html page used for drawsocket layout, can be a custom user file.</description>
+		</attribute>
+
+		<attribute name="port" get='0' set='1' type="int" size="1">
+			<digest>server port number</digest>
+			<description>sets the server port number. Only takes effect on start up.</description>
+		</attribute>
+
+	</attributelist>
+
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="FullPacket">
+			<digest>
+				OSC FullPacket or Max Dictionary.
+			</digest>
+			<description>
+				An odot bundle to perform an expression on.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="Dictionary">
+			<digest>
+				Messages from client in Max Dicitonary form (also readable by Odot objects).
+			</digest>
+			<description>
+				Messages from client in Max Dicitonary form (also readable by Odot objects).
+			</description>
+		</outlet>
+		<outlet id="1" type="Dictionary">
+			<digest>
+				Error messages from the node.js server.
+			</digest>
+			<description>
+				Error messages from the node.js server.
+			</description>
+		</outlet>
+		<outlet id="2" type="Dictionary">
+			<digest>
+				Status messages from the node.js server.
+			</digest>
+			<description>
+				Status messages from the node.js server.
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="FullPacket (OSC)">
+			<digest>
+				Messages to send to clients. See API details for more information.
+			</digest>
+			<description>
+				Messages to send to clients. See API details below for more information.
+			</description>
+		</method>
+		
+		<method name="dictionary">
+			<digest>
+				Messages to send to clients. See API details for more information.
+			</digest>
+			<description>
+				Messages to send to clients. See API details below for more information.
+			</description>
+		</method>
+		
+		<method name="ping [variable]">
+			<arglist>
+				<arg name="URL prefix" optional="0" type="list" />
+			</arglist>
+			<digest>
+				query the connection status of one or more clients.
+			</digest>
+			<description>
+				<p>Query the connection status of one or more clients. The argument for the <m>ping</m> can be one or a list of URLs to ping. The clients will respond by sending their conneciton status, and screensize.</p>
+
+				<p>The message <m>ping /*</m> pings all clients.</p>
+
+			</description>
+		</method>
+
+		<method name="writecache [variable] [variable]">
+			<arglist>
+				<arg name="path/file-name" optional="0" type="symbol" />
+				<arg name="(optional) URL prefix" optional="1" type="symbol" />
+			</arglist>
+			<digest>
+				write the current cached client states to a JSON file on disk.
+			</digest>
+			<description>
+				<p>Writes the current cached messages to a JSON file on disk.</p>
+
+				<p>The folder path is relative to the folder path of the patch in which the <m>drawsocket</m> object is in.</p>
+
+				<p>Message syntax:<br/>
+				<tab></tab><m>writecache relative-folder-path/filename.json</m><br/>
+				<br/>
+				or, to write only one URL prefix:<br/>
+				<tab></tab><m>writecache relative-folder-path/filename.json /myURLPrefix</m>
+				</p>
+			</description>
+		</method>
+
+		<method name="importcache [variable] [variable]">
+			<arglist>
+				<arg name="file-name" optional="0" type="symbol" />
+				<arg name="(optional) URL prefix" optional="1" type="symbol" />
+			</arglist>
+			<digest>
+				read a JSON file from disk and import one or all <m>prefix</m> objects in the file.
+			</digest>
+			<description>
+				<p>Reads a JSON file from disk and import one or all <m>prefix</m> objects in the file.</p>
+
+				<p>The folder path is relative to the folder path of the patch in which the <m>drawsocket</m> object is in.</p>
+
+				<p>Message syntax:<br/>
+				<tab></tab><m>importcache relative-folder-path/filename.json</m><br/>
+				<br/>
+				or, to read only one URL prefix:<br/>
+				<tab></tab><m>importcache relative-folder-path/filename.json /myURLPrefix</m>
+				</p>
+
+				<p>Note that importing the cache updates the server, but does not update the client automatically. You may need to send a <m>statereq</m> messages to update the clients if they are already logged in.</p>
+			</description>
+		</method>
+
+		<method name="statereq [variable]">
+			<arglist>
+				<arg name="URL prefix" optional="0" type="list" />
+			</arglist>
+			<digest>
+				trigger a client update request for one or more clients.
+			</digest>
+			<description>
+				<p>Triggers a client update request for one or more clients (equivalent to a client refresh). The argument for the <m>statereq</m> can be one or a list of URLs to send the message to.</p>
+
+				<p>The message <m>statereq /*</m> sends the message to all clients.</p>
+
+			</description>
+		</method>
+
+
+	</methodlist>
+
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="Drawsocket_API" module="drawsocket" type="vignette" />
+		<seealso name="dict" />
+		<seealso name="o.compose" />
+		<seealso name="o.expr.codebox" />
+		<seealso name="node.script" />
+		<seealso name="js" />
+
+	</seealsolist>
+
+</c74object>
