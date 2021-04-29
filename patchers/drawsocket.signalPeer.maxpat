@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
+		"rect" : [ 61.0, 257.0, 751.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 370.0, 87.5, 216.0, 47.0 ],
+					"patching_rect" : [ 489.0, 99.5, 216.0, 47.0 ],
 					"text" : "helper patch for use with standard OSC bundles that would be sent to drawsocket."
 				}
 
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 370.0, 52.5, 221.0, 27.0 ],
+					"patching_rect" : [ 489.0, 64.5, 221.0, 27.0 ],
 					"text" : "drawsocket.signalPeer"
 				}
 
@@ -115,13 +115,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-11",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 50.0, 136.5, 242.0, 44.0 ],
-					"text" : "/url = getaddresses(),\n/data = value(/url)"
+					"patching_rect" : [ 50.0, 123.5, 395.0, 57.0 ],
+					"text" : "/url = getaddresses(),\n/data = typetags(/url) == '.' ? value(\"/*\") : value(/url),\ndelete(\"/*\")"
 				}
 
 			}
@@ -132,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 50.0, 100.0, 101.0, 22.0 ],
+					"patching_rect" : [ 50.0, 87.0, 101.0, 22.0 ],
 					"text" : "o.messageiterate"
 				}
 
@@ -153,12 +153,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 50.0, 17.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -166,7 +166,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -239,28 +239,9 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "o.dict.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.messageiterate.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -270,13 +251,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"number" : 				{
+					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -285,8 +267,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -295,9 +277,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
-					"fontsize" : [ 15.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontface" : [ 3 ],
+					"fontsize" : [ 15.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -306,8 +288,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -316,9 +298,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
-					"fontsize" : [ 20.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 20.0 ]
 				}
 ,
 				"parentstyle" : "",
