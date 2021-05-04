@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 399.0, 79.0, 1180.0, 901.0 ],
+		"rect" : [ 117.0, 79.0, 1180.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -9479,7 +9479,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 399.0, 105.0, 1180.0, 875.0 ],
+						"rect" : [ 117.0, 105.0, 1180.0, 875.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10941,13 +10941,12 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-45",
-									"linecount" : 2,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 148.0, 808.66668701171875, 407.0, 48.0 ],
-									"text" : "/port/ip : \"http://192.168.178.36:3002\",\n/port/localhost : \"http://localhost:3002\""
+									"patching_rect" : [ 148.0, 808.66668701171875, 407.0, 34.0 ],
+									"text" : "/port/ip : \"server stopped\""
 								}
 
 							}
@@ -16159,8 +16158,8 @@
 			}
 , 			{
 				"name" : "startscript.js",
-				"bootpath" : "~/Documents/___hfmt/drawsocket-min/code",
-				"patcherrelativepath" : "../../../../___hfmt/drawsocket-min/code",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
