@@ -7,3 +7,4 @@ node_modules
 *.sh
 *.tar.gz
 dev
+drawsocket-max
