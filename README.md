@@ -9,11 +9,7 @@ Developed at the Hochschule für Musik und Theater Hamburg in 2019 for a series 
 
 For more information, please see the documentation website at [drawsocket.github.io](https://drawsocket.github.io/)
 
-# Installation
-
-`drawsocket` can be run either as a [standalone server](#standalone-udp-server), or inside the [Max](https://cycling74.com/) media programming application.
-
-# Max Package
+# Max Package Installation
 
 Requires [Max](https://cycling74.com/) version >= 8.1.0, and [CNMAT's Odot library](https://github.com/CNMAT/CNMAT-odot/releases), and works well in the [MaxScore](http://www.computermusicnotation.com) notation framework.
 
