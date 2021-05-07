@@ -7,27 +7,107 @@
     "name": "drawsocket",
     "version": "",
     "website": "https://drawsocket.github.io/",
-    "tags" : [ "web", "network", "node", "OSC", "odot", "scores", "notation", "interaction", "animation" ],
-    "os" : 	{
-		"macintosh" : 		{
-			"min_version" : "10.7.x",
-			"platform" : [ "ia32", "x64" ]
-		},
-		"windows" : 		{
-			"min_version" : "XP",
-			"platform" : [ "ia32", "x64" ]
-		}
-	},
-    "filelist" : 	{
-		"patchers" : [ "drawsocket.maxpat", "drawsocket.signalPeer.maxpat"],
-		"help" : [ "drawsocket.maxhelp", "drawsocket.signalPeer.maxhelp"],
-		"interfaces" : [],
-		"media" : [],
-		"docs" : [],
-		"extras" : [ ]
-	},
-	"package_extra" : 	{
-		"reverse_domain" : "io.drawsocket.github",
-		"copyright" : "Copyright (c) 2018 Rama Gottfried, HfMT Hamburg"
-	}
+    "tags": [
+        "web",
+        "network",
+        "node",
+        "OSC",
+        "odot",
+        "scores",
+        "notation",
+        "interaction",
+        "animation"
+    ],
+    "os": {
+        "macintosh": {
+            "min_version": "10.7.x",
+            "platform": [
+                "ia32",
+                "x64"
+            ]
+        },
+        "windows": {
+            "min_version": "XP",
+            "platform": [
+                "ia32",
+                "x64"
+            ]
+        }
+    },
+    "filelist": {
+        "patchers": [
+            "drawsocket.maxpat",
+            "drawsocket.signalPeer.maxpat"
+        ],
+        "help": [
+            "drawsocket.maxhelp",
+            "drawsocket.signalPeer.maxhelp"
+        ],
+        "interfaces": [],
+        "media": [],
+        "docs": [
+            "_c74_common.css",
+            "_c74_common.xml",
+            "_c74_common.xsl",
+            "_c74_compat.html",
+            "_c74_contents.xml",
+            "_c74_platform.xsl",
+            "refpages/_c74_ref.xsl",
+            "refpages/_c74_ref_common.xsl",
+            "refpages/_c74_ref_modules.xml",
+            "refpages/backup_hfmt.drawsocket.maxref.xml",
+            "refpages/drawsocket.maxref.xml",
+            "vignettes/Drawsocket_API.maxvig.xml"
+        ],
+        "extras": [
+            "Drawsocket/0_root-folder/drawsocket-root-folder-example.maxpat",
+            "Drawsocket/0_root-folder/public/index.html",
+            "Drawsocket/0_root-folder/public/media/10_player_score.svg",
+            "Drawsocket/0_root-folder/public/media/Rain.png",
+            "Drawsocket/0_root-folder/public/media/equation-dft.png",
+            "Drawsocket/0_root-folder/public/media/shape.svg",
+            "Drawsocket/0_root-folder/public/media/tenor19-drawsocket.pdf",
+            "Drawsocket/1_scrolling-score/scrolling-score.maxpat",
+            "Drawsocket/1_scrolling-score/untitled.svg",
+            "Drawsocket/2_buttons/1.basic-button.maxpat",
+            "Drawsocket/2_buttons/2.basic-button-css.maxpat",
+            "Drawsocket/2_buttons/3.basic-toggle.maxpat",
+            "Drawsocket/2_buttons/4.button-trigger-command.maxpat",
+            "Drawsocket/2_buttons/5.toggle-scrolling-score.maxpat",
+            "Drawsocket/3_chat/form-example2.maxpat",
+            "Drawsocket/3_chat/publicscore.svg",
+            "Drawsocket/3_chat/socket-chat.maxpat",
+            "Drawsocket/4_working-with-json/1-working-with-json-files.maxpat",
+            "Drawsocket/4_working-with-json/2-fetch-file.maxpat",
+            "Drawsocket/4_working-with-json/saved-big-cache.json",
+            "Drawsocket/4_working-with-json/saved-cache.json",
+            "Drawsocket/5_pdf/flint_piccolo_excerpt.pdf",
+            "Drawsocket/5_pdf/pdf-viewer.maxpat",
+            "Drawsocket/6_sound/1-sample-player.maxpat",
+            "Drawsocket/6_sound/2-oscillator.maxpat",
+            "Drawsocket/6_sound/media/kick1.mp3",
+            "Drawsocket/7_writeSVG/write-svg-to-file.maxpat",
+            "Drawsocket/8_MaxScore/public/media/project/score.svg",
+            "Drawsocket/8_MaxScore/publicscore.svg",
+            "Drawsocket/8_MaxScore/render2Browser Example.maxpat",
+            "Drawsocket/9_note_drawing_example/note_drawing.maxpat"
+        ],
+        "examples": [
+            "basic-drawsocket/index.html",
+            "basic-drawsocket/public/media/project/untitled.svg"
+        ],
+        "javascript": [
+            "drawsocket-max.js",
+            "package-lock.json",
+            "package.json",
+            "startscript.js"
+        ],
+        "templates": [
+            "Drawsocket/generate-server-folder.maxpat"
+        ]
+    },
+    "package_extra": {
+        "reverse_domain": "io.drawsocket.github",
+        "copyright": "Copyright (c) 2018 Rama Gottfried, HfMT Hamburg"
+    }
 }

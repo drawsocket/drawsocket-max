@@ -22,4 +22,4 @@ for( const f of filelist_dirs ){
     data.filelist[f] = getFiles(f);
 }
 
-fs.writeFileSync('package-info.test.json', JSON.stringify(data, null, 4) )
+fs.writeFileSync('package-info.json', JSON.stringify(data, null, 4) )
