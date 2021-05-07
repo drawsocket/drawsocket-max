@@ -7,5 +7,27 @@
     "name": "drawsocket",
     "version": "",
     "website": "https://drawsocket.github.io/",
-    "tags" : [ "web", "network", "node", "OSC", "odot", "scores", "animation" ]
+    "tags" : [ "web", "network", "node", "OSC", "odot", "scores", "notation", "interaction", "animation" ],
+    "os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.7.x",
+			"platform" : [ "ia32", "x64" ]
+		},
+		"windows" : 		{
+			"min_version" : "XP",
+			"platform" : [ "ia32", "x64" ]
+		}
+	},
+    "filelist" : 	{
+		"patchers" : [ "drawsocket.maxpat", "drawsocket.signalPeer.maxpat"],
+		"help" : [ "drawsocket.maxhelp", "drawsocket.signalPeer.maxhelp"],
+		"interfaces" : [],
+		"media" : [],
+		"docs" : [],
+		"extras" : [ ]
+	},
+	"package_extra" : 	{
+		"reverse_domain" : "io.drawsocket.github",
+		"copyright" : "Copyright (c) 2018 Rama Gottfried, HfMT Hamburg"
+	}
 }
