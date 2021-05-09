@@ -66,7 +66,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 868.154668709082443, 85.0, 181.073226928710938, 41.515625 ],
+					"patching_rect" : [ 872.790720890185867, 85.0, 181.073226928710938, 41.515625 ],
 					"text" : "drawsocket",
 					"texton" : "drawsocket",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -892,8 +892,8 @@
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "FullPacket" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "FullPacket", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -905,7 +905,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 1241.0, 488.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -935,16 +935,40 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"comment" : "",
+									"id" : "obj-3",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 279.0, 353.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "FullPacket" ],
+									"patching_rect" : [ 50.0, 247.0, 100.0, 22.0 ],
+									"text" : "o.select /npm/log"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-11",
-									"linecount" : 7,
+									"linecount" : 8,
 									"maxclass" : "o.expr.codebox",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
-									"patching_rect" : [ 50.0, 100.0, 889.0, 100.0 ],
-									"text" : "if( bound(/npm/success),\n  progn(\n    /arg = /npm/success./args[[ length(/npm/success./args) - 1 ]],\n    /print = \"npm \" + /arg  + \" \" + /npm/success./status + (/npm/success./status == \"started\" ? \" -- please wait...\" : \"\")\n  )\n)"
+									"patching_rect" : [ 50.0, 100.0, 892.0, 130.0 ],
+									"text" : "if( bound(/npm/success),\n  progn(\n    /arg = /npm/success./args[[ length(/npm/success./args) - 1 ]],\n    /msg = /arg  + \" \" + /npm/success./status + (/npm/success./status == \"started\" ? \" -- please wait...\" : \"\"),\n    /print = \"npm \" + /msg,\n    /npm/log = /msg\n  )\n)"
 								}
 
 							}
@@ -969,7 +993,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 260.0, 30.0, 30.0 ]
+									"patching_rect" : [ 131.0, 371.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -977,6 +1001,21 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"midpoints" : [ 59.5, 310.5, 288.5, 310.5 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -991,7 +1030,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 626.0, 513.1666259765625, 61.0, 22.0 ],
+					"patching_rect" : [ 580.0, 515.1666259765625, 129.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1126,7 +1165,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 626.0, 591.6666259765625, 123.0, 22.0 ],
+					"patching_rect" : [ 580.0, 591.333312999999976, 96.0, 22.0 ],
 					"text" : "print drawsocket"
 				}
 
@@ -1138,7 +1177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 626.0, 556.6666259765625, 76.0, 22.0 ],
+					"patching_rect" : [ 580.0, 556.333312999999976, 76.0, 22.0 ],
 					"text" : "o.route /print"
 				}
 
@@ -1788,6 +1827,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 1.0, 0.064207762479782, 0.999236702919006, 1.0 ],
+					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 699.5, 637.749969482421875, 1114.0, 637.749969482421875 ],
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-26", 4 ]
 				}
@@ -1860,7 +1908,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 0.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 0.064207762479782, 0.999236702919006, 1.0 ],
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 489.5, 643.666656494140625, 1114.0, 643.666656494140625 ],
 					"source" : [ "obj-33", 0 ]
@@ -1890,9 +1938,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 0.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 0.064207762479782, 0.999236702919006, 1.0 ],
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 895.0, 636.33331299414067, 1114.0, 636.33331299414067 ],
+					"midpoints" : [ 895.0, 629.33331299414067, 1114.0, 629.33331299414067 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1929,7 +1977,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 0.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 0.064207762479782, 0.999236702919006, 1.0 ],
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 271.5, 650.166656494140625, 1114.0, 650.166656494140625 ],
 					"source" : [ "obj-42", 0 ]
@@ -2108,8 +2156,8 @@
 		"styles" : [ 			{
 				"name" : "black on white",
 				"number" : 				{
-					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
@@ -2133,8 +2181,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2143,9 +2191,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
+					"fontface" : [ 3 ],
 					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2164,9 +2212,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

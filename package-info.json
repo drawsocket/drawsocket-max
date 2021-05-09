@@ -5,7 +5,9 @@
     "max_version_max": "none",
     "max_version_min": "8.1.0",
     "name": "drawsocket",
-    "version": "",
+    "version": "1.0.0",
+    "extends" : "CNMAT odot",
+    "extensible" : 0,
     "website": "https://drawsocket.github.io/",
     "tags": [
         "web",
