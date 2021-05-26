@@ -19,6 +19,6 @@ __To install:__
 3. Place the `drawsocket` repository in the `/Documents/Max 8/Packages` folder.
 4. Restart Max.
 5. Make a new patcher and put a `drawsocket` object (abstraction) in the patcher, and go to the `drawsocket` help patch.
-6. When running the `drawsocket` server for the first time: click on the `script npm install` message to download the `drawsocket` module and dependency libraries (note that you will need to be connected to the internet for the download to work).
+6. When running the `drawsocket` server for the first time: click on the `script npm install drawsocket` message to download the `drawsocket` module and dependency libraries (note that you will need to be connected to the internet for the download to work).
 7. Refer to the examples in the `drawsocket` help file, and in the Max Extras menu.
 8. See the [Overview](overview.html) and [API](api.html) pages for more details.
