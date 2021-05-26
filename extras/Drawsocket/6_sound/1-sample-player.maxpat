@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 484.0, 79.0, 1463.0, 910.0 ],
+		"rect" : [ 185.0, 79.0, 1463.0, 910.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,221 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 2,
+							"revision" : 0,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 104.0, 1152.0, 644.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 620.0, 431.0, 409.0, 33.0 ],
+									"text" : "note that odot doesn't allow list of lists, so as a workaround, we can use /args : [] with each argument wrapped in an object, with the address /val"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 69.0, 472.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontsize" : 12.0,
+									"id" : "obj-28",
+									"linecount" : 15,
+									"maxclass" : "o.compose",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 597.0, 200.0, 468.0, 220.0 ],
+									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 64, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 52, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 16, 47, 99, 97, 99, 104, 101, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, -12, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -28, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 115, 97, 109, 112, 108, 101, 84, 101, 115, 116, 0, 0, 0, 0, 0, -72, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 114, 105, 103, 103, 101, 114, 65, 116, 116, 97, 99, 107, 82, 101, 108, 101, 97, 115, 101, 0, 0, 0, 0, 0, 0, 0, 108, 47, 97, 114, 103, 115, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 115, 115, 0, 0, 0, 0, 69, 98, 51, 0, 71, 52, 0, 0, 67, 52, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 100, 0, 0, 63, -32, 0, 0, 0, 0, 0, 0 ],
+									"saved_bundle_length" : 340,
+									"text" : "/* : {\n  /key : \"sound\",\n  /cache : 0,\n  /val : {\n    /id : \"sampleTest\",\n    /call : {\n      /method : \"triggerAttackRelease\",\n      /args : [{\n        /val : [\"Eb3\", \"G4\", \"C4\"]\n      }, {\n        /val : 0.5\n      }]\n    }\n  }\n}"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"linecount" : 17,
+									"maxclass" : "o.compose",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.0, 116.0, 468.0, 248.0 ],
+									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 1, 64, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 83, 97, 109, 112, 108, 101, 114, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 115, 97, 109, 112, 108, 101, 84, 101, 115, 116, 0, 0, 0, 0, 0, -88, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 117, 114, 108, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 65, 49, 0, 44, 115, 0, 0, 65, 49, 46, 109, 112, 51, 0, 0, 0, 0, 0, 16, 47, 65, 50, 0, 44, 115, 0, 0, 65, 50, 46, 109, 112, 51, 0, 0, 0, 0, 0, 56, 47, 98, 97, 115, 101, 85, 114, 108, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 116, 112, 115, 58, 47, 47, 116, 111, 110, 101, 106, 115, 46, 103, 105, 116, 104, 117, 98, 46, 105, 111, 47, 97, 117, 100, 105, 111, 47, 99, 97, 115, 105, 111, 47, 0, 0, 0, 0, 0, 0, 64, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 111, 68, 101, 115, 116, 105, 110, 97, 116, 105, 111, 110, 0, 0, 0 ],
+									"saved_bundle_length" : 396,
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /new : \"Sampler\",\n    /id : \"sampleTest\",\n    /vars : {\n      /urls : {\n        /A1 : \"A1.mp3\",\n        /A2 : \"A2.mp3\"\n      },\n      /baseUrl : \"https://tonejs.github.io/audio/casio/\"\n    },\n    /call : {\n      /method : \"toDestination\"\n    }\n  }\n}"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "black on white",
+								"umenu" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "caption text",
+								"default" : 								{
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "section dividers",
+								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 3 ],
+									"fontsize" : [ 15.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "section info reg",
+								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "titles",
+								"default" : 								{
+									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 20.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 329.126209080219269, 734.951446235179901, 111.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p sampler-example"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 133.5, 661.5, 162.0, 22.0 ],
+					"presentation_linecount" : 4,
+					"text" : "script npm install drawsocket"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-29",
@@ -48,7 +263,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 911.0, 842.5, 273.0, 304.0 ],
+					"patching_rect" : [ 863.0, 959.5, 273.0, 304.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -52, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, -64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 1, -108, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, -124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 80, 108, 97, 121, 101, 114, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 107, 105, 99, 107, 0, 0, 0, 0, 0, 0, 1, 0, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -16, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 117, 114, 108, 0, 0, 0, 0, 44, 115, 0, 0, 47, 109, 101, 100, 105, 97, 47, 107, 105, 99, 107, 49, 46, 109, 112, 51, 0, 0, 0, 0, 0, 0, 0, 24, 47, 97, 117, 116, 111, 115, 116, 97, 114, 116, 0, 0, 44, 115, 0, 0, 102, 97, 108, 115, 101, 0, 0, 0, 0, 0, 0, 20, 47, 108, 111, 111, 112, 0, 0, 0, 44, 115, 0, 0, 102, 97, 108, 115, 101, 0, 0, 0, 0, 0, 0, -124, 47, 111, 110, 108, 111, 97, 100, 0, 44, 46, 0, 0, 0, 0, 0, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 47, 102, 117, 110, 99, 116, 105, 111, 110, 0, 0, 0, 44, 115, 0, 0, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 115, 101, 110, 100, 40, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 98, 117, 102, 102, 101, 114, 58, 32, 39, 108, 111, 97, 100, 101, 100, 32, 107, 105, 99, 107, 39, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 125, 41, 0, 0, 0, 0, 64, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 111, 68, 101, 115, 116, 105, 110, 97, 116, 105, 111, 110, 0, 0, 0 ],
 					"saved_bundle_length" : 480,
 					"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /new : \"Player\",\n    /id : \"kick\",\n    /vars : {\n      /url : \"/media/kick1.mp3\",\n      /autostart : \"false\",\n      /loop : \"false\",\n      /onload : {\n        /function : \"\n           drawsocket.send({\n              buffer: 'loaded kick'\n           })\"\n      }\n    },\n    /call : {\n      /method : \"toDestination\"\n    }\n  }\n}"
@@ -326,7 +541,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 853.66668701171875, 407.0, 48.0 ],
-					"text" : "/port/ip : \"http://192.168.178.36:3002\",\n/port/localhost : \"http://localhost:3002\""
+					"text" : "/port/ip : \"http://192.168.178.52:3002\",\n/port/localhost : \"http://localhost:3002\""
 				}
 
 			}
@@ -449,6 +664,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -478,6 +700,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -526,22 +755,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "drawsocket.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/drawsocket/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "drawsocket-server.js",
-				"bootpath" : "~/Documents/Max 8/Packages/drawsocket/code/node",
-				"patcherrelativepath" : "../../../code/node",
+				"name" : "drawsocket-max.js",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/javascript",
+				"patcherrelativepath" : "../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "startscript.js",
-				"bootpath" : "~/Documents/Max 8/Packages/drawsocket/code",
-				"patcherrelativepath" : "../../../code",
+				"bootpath" : "~/Documents/___hfmt/drawsocket-min/code",
+				"patcherrelativepath" : "../../../../../../___hfmt/drawsocket-min/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -549,6 +778,13 @@
 				"name" : "Screen Shot 2021-03-17 at 22.21.18.png",
 				"bootpath" : "~/Documents/_____submissions/zurich/materials",
 				"patcherrelativepath" : "../../../../../../_____submissions/zurich/materials",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drawsocket_logo_150.png",
+				"bootpath" : "~/Documents/dev-lib/drawsocket.github.io/assets/images",
+				"patcherrelativepath" : "../../../../../../dev-lib/drawsocket.github.io/assets/images",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -592,14 +828,7 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
-				"number" : 				{
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontname" : [ "Arial" ]
-				}
-,
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -609,7 +838,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+,
+				"number" : 				{
+					"fontname" : [ "Arial" ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -618,8 +854,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -628,9 +864,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
-					"fontsize" : [ 15.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontface" : [ 3 ],
+					"fontsize" : [ 15.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -639,8 +875,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -649,9 +885,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
-					"fontsize" : [ 20.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 20.0 ]
 				}
 ,
 				"parentstyle" : "",

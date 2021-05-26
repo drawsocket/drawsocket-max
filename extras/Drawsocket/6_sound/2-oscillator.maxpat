@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 274.0, 79.0, 1341.0, 937.0 ],
+		"rect" : [ 453.0, 79.0, 1341.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -60,10 +60,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.5, 704.5, 165.0, 133.0 ],
+					"patching_rect" : [ 53.5, 704.5, 187.0, 136.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -88, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 112, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0 ],
 					"saved_bundle_length" : 188,
-					"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/call : {\n\t\t\t/method : \"start\"\n\t\t}\n\t}\n}"
+					"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /call : {\n      /method : \"start\"\n    }\n  }\n}"
 				}
 
 			}
@@ -290,13 +290,11 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-45",
-					"linecount" : 2,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 832.66668701171875, 407.0, 48.0 ],
-					"text" : "/port/localhost : \"http://localhost:3002\",\n/port/ip : \"http://192.168.178.36,169.254.42.109:3002\""
+					"patching_rect" : [ 420.0, 832.66668701171875, 407.0, 34.0 ]
 				}
 
 			}
@@ -308,7 +306,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "FullPacket", "", "FullPacket" ],
+					"outlettype" : [ "FullPacket", "", "" ],
 					"patching_rect" : [ 329.0, 759.0, 110.0, 24.0 ],
 					"text" : "drawsocket"
 				}
@@ -360,10 +358,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 326.5, 232.0, 244.0, 146.0 ],
+					"patching_rect" : [ 326.5, 232.0, 266.0, 150.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -60, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -72, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, -116, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 84, 47, 115, 101, 116, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 101, 109, 98, 101, 114, 0, 44, 115, 0, 0, 102, 114, 101, 113, 117, 101, 110, 99, 121, 46, 118, 97, 108, 117, 101, 0, 0, 0, 0, 16, 47, 118, 97, 108, 117, 101, 0, 0, 44, 105, 0, 0, 0, 0, 3, 120 ],
 					"saved_bundle_length" : 216,
-					"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/set : {\n\t\t\t/member : \"frequency.value\",\n\t\t\t/value : 888\n\t\t}\n\t}\n}"
+					"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /set : {\n      /member : \"frequency.value\",\n      /value : 888\n    }\n  }\n}"
 				}
 
 			}
@@ -377,10 +375,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.5, 394.0, 244.0, 146.0 ],
+					"patching_rect" : [ 321.5, 394.0, 266.0, 150.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -60, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -72, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, -116, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 84, 47, 115, 101, 116, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 101, 109, 98, 101, 114, 0, 44, 115, 0, 0, 102, 114, 101, 113, 117, 101, 110, 99, 121, 46, 118, 97, 108, 117, 101, 0, 0, 0, 0, 16, 47, 118, 97, 108, 117, 101, 0, 0, 44, 105, 0, 0, 0, 0, 3, -24 ],
 					"saved_bundle_length" : 216,
-					"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/set : {\n\t\t\t/member : \"frequency.value\",\n\t\t\t/value : 1000\n\t\t}\n\t}\n}"
+					"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /set : {\n      /member : \"frequency.value\",\n      /value : 1000\n    }\n  }\n}"
 				}
 
 			}
@@ -394,10 +392,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.5, 234.0, 237.0, 255.0 ],
+					"patching_rect" : [ 41.5, 234.0, 252.0, 262.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 112, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 1, 56, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 79, 115, 99, 105, 108, 108, 97, 116, 111, 114, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 100, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 121, 112, 101, 0, 0, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 102, 114, 101, 113, 117, 101, 110, 99, 121, 0, 0, 44, 105, 0, 0, 0, 0, 1, -72, 0, 0, 0, 16, 47, 118, 111, 108, 117, 109, 101, 0, 44, 105, 0, 0, -1, -1, -1, -12, 0, 0, 0, 124, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 111, 68, 101, 115, 116, 105, 110, 97, 116, 105, 111, 110, 0, 0, 0, 0, 0, 0, 56, 47, 116, 104, 101, 110, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0 ],
 					"saved_bundle_length" : 388,
-					"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/new : \"Oscillator\",\n\t\t/id : \"sine\",\n\t\t/vars : {\n\t\t\t/type : \"sine\",\n\t\t\t/frequency : 440,\n\t\t\t/volume : -12\n\t\t},\n\t\t/call : {\n\t\t\t/method : \"toDestination\",\n\t\t\t/then : {\n\t\t\t\t/method : \"start\"\n\t\t\t}\n\t\t}\n\t}\n}"
+					"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /new : \"Oscillator\",\n    /id : \"sine\",\n    /vars : {\n      /type : \"sine\",\n      /frequency : 440,\n      /volume : -12\n    },\n    /call : {\n      /method : \"toDestination\",\n      /then : {\n        /method : \"start\"\n      }\n    }\n  }\n}"
 				}
 
 			}
@@ -472,10 +470,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.5, 541.5, 165.0, 133.0 ],
+					"patching_rect" : [ 53.5, 541.5, 179.0, 136.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -88, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 112, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 115, 116, 111, 112, 0, 0, 0, 0 ],
 					"saved_bundle_length" : 188,
-					"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/call : {\n\t\t\t/method : \"stop\"\n\t\t}\n\t}\n}"
+					"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /call : {\n      /method : \"stop\"\n    }\n  }\n}"
 				}
 
 			}
@@ -646,23 +644,37 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "drawsocket.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/drawsocket/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/patchers",
 				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "drawsocket-server.js",
-				"bootpath" : "~/Documents/Max 8/Packages/drawsocket/code/node",
-				"patcherrelativepath" : "../../../code/node",
+				"name" : "drawsocket-max.js",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/javascript",
+				"patcherrelativepath" : "../../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "startscript.js",
-				"bootpath" : "~/Documents/___hfmt/drawsocket-min/code",
-				"patcherrelativepath" : "../../../../../../___hfmt/drawsocket-min/code",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/javascript",
+				"patcherrelativepath" : "../../../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Screen Shot 2021-03-17 at 22.21.18.png",
+				"bootpath" : "~/Documents/_____submissions/zurich/materials",
+				"patcherrelativepath" : "../../../../../../_____submissions/zurich/materials",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drawsocket_logo_150.png",
+				"bootpath" : "~/Documents/dev-lib/drawsocket.github.io/assets/images",
+				"patcherrelativepath" : "../../../../../../dev-lib/drawsocket.github.io/assets/images",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -675,10 +687,6 @@
 			}
 , 			{
 				"name" : "o.timetag.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -697,18 +705,15 @@
 				"name" : "o.expr.codebox.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
-				"number" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-				}
-,
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -718,7 +723,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+,
+				"number" : 				{
+					"fontname" : [ "Arial" ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -727,8 +739,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -737,9 +749,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
-					"fontsize" : [ 15.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontface" : [ 3 ],
+					"fontsize" : [ 15.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -748,8 +760,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -758,9 +770,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
-					"fontsize" : [ 20.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 20.0 ]
 				}
 ,
 				"parentstyle" : "",
