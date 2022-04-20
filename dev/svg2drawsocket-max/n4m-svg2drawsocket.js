@@ -50,7 +50,8 @@ Max.addHandler("svg2drawsocket", (infile, outfile="", prefix="/*", appendtofile=
                 });
                 Max.post("wrote to file: "+userpath+outfile);
 
-                Max.outlet(userpath+outfile);
+                Max.outlet(outObj);
+
 
         }
         else
@@ -65,7 +66,7 @@ Max.addHandler("svg2drawsocket", (infile, outfile="", prefix="/*", appendtofile=
             });
 
             Max.post("wrote to file: "+userpath+outfile);
-            Max.outlet(userpath+outfile);
+            Max.outlet(outObj);
 
         }
         
