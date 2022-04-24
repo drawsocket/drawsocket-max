@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.0, 333.0, 101.0, 22.0 ],
+					"patching_rect" : [ 152.0, 274.0, 101.0, 22.0 ],
 					"text" : "set signalPeer $1"
 				}
 
@@ -129,21 +129,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 395.0, 53.0, 22.0 ],
+					"patching_rect" : [ 50.0, 326.0, 53.0, 22.0 ],
 					"text" : "prepend"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 320.0, 86.0, 35.0 ],
-					"text" : "dict.serialize @mode json"
 				}
 
 			}
@@ -194,7 +181,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 486.0, 30.0, 30.0 ]
+					"patching_rect" : [ 50.0, 417.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -258,13 +245,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-198", 0 ]
 				}
 
