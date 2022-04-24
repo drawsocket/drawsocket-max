@@ -3,3 +3,4 @@ node_modules/
 .vscode
 *.tar.gz
 drawsocket-max
+javascript/package*
