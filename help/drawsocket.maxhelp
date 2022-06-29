@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 79.0, 1180.0, 924.0 ],
+		"rect" : [ 100.0, 87.0, 1180.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,8 +51,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -311,24 +311,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -337,8 +337,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -347,9 +347,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -358,8 +358,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -368,9 +368,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -402,8 +402,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -599,8 +599,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -749,8 +749,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -899,8 +899,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1049,8 +1049,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1182,8 +1182,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1575,24 +1575,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1601,8 +1601,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1611,9 +1611,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1622,8 +1622,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1632,9 +1632,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1665,8 +1665,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1705,7 +1705,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-3",
-									"linecount" : 6,
+									"linecount" : 7,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -1713,7 +1713,7 @@
 									"patching_rect" : [ 161.46153724193573, 117.990291714668274, 136.0, 92.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 112, 47, 118, 105, 101, 119, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 109, 111, 117, 115, 101, 0, 0, 0, 0, 0, 0, 52, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 101, 110, 97, 98, 108, 101, 0, 44, 105, 0, 0, 0, 0, 0, 1 ],
 									"saved_bundle_length" : 132,
-									"text" : "/view : {\n\t/key : \"mouse\",\n\t/val : {\n\t\t/enable : 1\n\t}\n}"
+									"text" : "/view : {\n  /key : \"mouse\",\n  /val : {\n    /enable : 1\n  }\n}"
 								}
 
 							}
@@ -1730,7 +1730,7 @@
 									"patching_rect" : [ 302.0, 283.330096781253815, 301.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 118, 105, 101, 119, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 109, 111, 117, 115, 101, 0, 0, 0, 0, 0, 0, 76, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 114, 101, 109, 111, 118, 101, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 20, 47, 101, 118, 101, 110, 116, 0, 0, 44, 115, 0, 0, 109, 111, 117, 115, 101, 117, 112, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/view : {\n\t/key : \"mouse\",\n\t/val : {\n\t\t/remove : \"foo\",\n\t\t/event : \"mouseup\"\n\t}\n}"
+									"text" : "/view : {\n  /key : \"mouse\",\n  /val : {\n    /remove : \"foo\",\n    /event : \"mouseup\"\n  }\n}"
 								}
 
 							}
@@ -1747,7 +1747,7 @@
 									"patching_rect" : [ 373.67474502325058, 110.330096781253815, 301.0, 160.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -20, 47, 118, 105, 101, 119, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 109, 111, 117, 115, 101, 0, 0, 0, 0, 0, 0, -80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 124, 47, 99, 97, 108, 108, 98, 97, 99, 107, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 118, 101, 110, 116, 0, 0, 44, 115, 0, 0, 109, 111, 117, 115, 101, 117, 112, 0, 0, 0, 0, 20, 47, 97, 114, 103, 115, 0, 0, 0, 44, 115, 0, 0, 101, 118, 101, 110, 116, 0, 0, 0, 0, 0, 0, 36, 47, 102, 117, 110, 99, 116, 105, 111, 110, 0, 0, 0, 44, 115, 0, 0, 99, 111, 110, 115, 111, 108, 101, 46, 108, 111, 103, 40, 101, 118, 101, 110, 116, 41, 0, 0 ],
 									"saved_bundle_length" : 256,
-									"text" : "/view : {\n\t/key : \"mouse\",\n\t/val : {\n\t\t/id : \"foo\",\n\t\t/callback : {\n\t\t\t/event : \"mouseup\",\n\t\t\t/args : \"event\",\n\t\t\t/function : \"console.log(event)\"\n\t\t}\n\t}\n}"
+									"text" : "/view : {\n  /key : \"mouse\",\n  /val : {\n    /id : \"foo\",\n    /callback : {\n      /event : \"mouseup\",\n      /args : \"event\",\n      /function : \"console.log(event)\"\n    }\n  }\n}"
 								}
 
 							}
@@ -1755,24 +1755,24 @@
 						"lines" : [  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1781,8 +1781,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1791,9 +1791,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1802,8 +1802,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1812,9 +1812,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1846,8 +1846,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1899,24 +1899,24 @@
 						"lines" : [  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1925,8 +1925,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1935,9 +1935,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1946,8 +1946,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1956,9 +1956,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1989,8 +1989,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2052,8 +2052,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2160,24 +2160,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2186,8 +2186,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2196,9 +2196,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2207,8 +2207,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2217,9 +2217,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2250,8 +2250,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2618,24 +2618,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2644,8 +2644,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2654,9 +2654,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2665,8 +2665,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2675,9 +2675,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2709,8 +2709,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2761,7 +2761,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 9,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -2769,7 +2769,7 @@
 									"patching_rect" : [ 191.5, 391.0, 150.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/cmd : \"start\",\n\t\t/id : \"fooTween\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /cmd : \"start\",\n    /id : \"fooTween\"\n  }\n}"
 								}
 
 							}
@@ -2786,7 +2786,7 @@
 									"patching_rect" : [ 69.0, 46.0, 366.0, 201.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 28, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 16, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -24, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 48, 47, 100, 0, 0, 44, 115, 0, 0, 109, 32, 48, 32, 48, 32, 81, 32, 50, 48, 32, 50, 48, 48, 32, 50, 48, 48, 32, 49, 48, 48, 32, 50, 48, 48, 32, 50, 48, 48, 32, 49, 48, 48, 32, 49, 48, 48, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 112, 97, 116, 104, 0, 0, 0, 0, 0, 0, 0, 104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 99, 99, 0, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5 ],
 									"saved_bundle_length" : 304,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/id : \"bar\",\n\t\t/d : \"m 0 0 Q 20 200 200 100 200 200 100 100\",\n\t\t/new : \"path\"\n\t}, {\n\t\t/new : \"circle\",\n\t\t/id : \"cc\",\n\t\t/cx : 0,\n\t\t/cy : 0,\n\t\t/r : 5\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /id : \"bar\",\n    /d : \"m 0 0 Q 20 200 200 100 200 200 100 100\",\n    /new : \"path\"\n  }, {\n    /new : \"circle\",\n    /id : \"cc\",\n    /cx : 0,\n    /cy : 0,\n    /r : 5\n  }]\n}"
 								}
 
 							}
@@ -2803,7 +2803,7 @@
 									"patching_rect" : [ 448.0, 65.0, 193.0, 432.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 68, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 2, 12, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, -4, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 0, 16, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 99, 99, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 2, 0, 0, 1, -88, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, -104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 117, 115, 101, 100, 0, 44, 115, 0, 0, 116, 114, 117, 101, 0, 0, 0, 0, 0, 0, 1, 84, 47, 98, 101, 122, 105, 101, 114, 0, 44, 46, 0, 0, 0, 0, 1, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 116, 121, 112, 101, 0, 0, 0, 44, 115, 0, 0, 113, 117, 97, 100, 114, 97, 116, 105, 99, 0, 0, 0, 0, 0, 1, 20, 47, 118, 97, 108, 117, 101, 115, 0, 44, 46, 46, 46, 46, 46, 0, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, -56, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, -56, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, -56, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, -56, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0 ],
 									"saved_bundle_length" : 600,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/id : \"fooTween\",\n\t\t/target : \"#cc\",\n\t\t/dur : 2,\n\t\t/vars : {\n\t\t\t/paused : \"true\",\n\t\t\t/bezier : {\n\t\t\t\t/type : \"quadratic\",\n\t\t\t\t/values : [{\n\t\t\t\t\t/x : 0,\n\t\t\t\t\t/y : 0\n\t\t\t\t}, {\n\t\t\t\t\t/x : 20,\n\t\t\t\t\t/y : 200\n\t\t\t\t}, {\n\t\t\t\t\t/x : 200,\n\t\t\t\t\t/y : 100\n\t\t\t\t}, {\n\t\t\t\t\t/x : 200,\n\t\t\t\t\t/y : 200\n\t\t\t\t}, {\n\t\t\t\t\t/x : 100,\n\t\t\t\t\t/y : 100\n\t\t\t\t}]\n\t\t\t},\n\t\t\t/ease : \"linear\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /id : \"fooTween\",\n    /target : \"#cc\",\n    /dur : 2,\n    /vars : {\n      /paused : \"true\",\n      /bezier : {\n        /type : \"quadratic\",\n        /values : [{\n          /x : 0,\n          /y : 0\n        }, {\n          /x : 20,\n          /y : 200\n        }, {\n          /x : 200,\n          /y : 100\n        }, {\n          /x : 200,\n          /y : 200\n        }, {\n          /x : 100,\n          /y : 100\n        }]\n      },\n      /ease : \"linear\"\n    }\n  }\n}"
 								}
 
 							}
@@ -2844,24 +2844,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2870,8 +2870,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2880,9 +2880,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2891,8 +2891,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2901,9 +2901,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2935,8 +2935,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3011,8 +3011,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3254,24 +3254,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3280,8 +3280,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3290,9 +3290,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3301,8 +3301,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3311,9 +3311,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3358,8 +3358,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3430,24 +3430,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3456,8 +3456,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3466,9 +3466,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3477,8 +3477,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3487,9 +3487,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3690,24 +3690,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3716,8 +3716,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3726,9 +3726,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3737,8 +3737,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3747,9 +3747,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3781,8 +3781,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3828,8 +3828,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4159,8 +4159,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4304,24 +4304,24 @@
 										"lines" : [  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4330,8 +4330,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4340,9 +4340,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4351,8 +4351,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4361,9 +4361,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4558,24 +4558,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4584,8 +4584,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4594,9 +4594,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4605,8 +4605,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4615,9 +4615,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4649,14 +4649,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 105.0, 1180.0, 898.0 ],
+						"rect" : [ 0.0, 26.0, 1180.0, 898.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4694,8 +4694,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 197.8642578125, 308.5, 160.0, 79.0 ],
-									"presentation_linecount" : 4,
+									"patching_rect" : [ 197.8642578125, 308.5, 162.0, 79.0 ],
 									"text" : "note that the default easing functon is not linear! if you need linear, you can specify this in the /vars"
 								}
 
@@ -4710,8 +4709,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4795,24 +4794,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4821,8 +4820,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4831,9 +4830,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4842,8 +4841,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4852,9 +4851,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4885,8 +4884,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5134,24 +5133,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5160,8 +5159,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5170,9 +5169,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5181,8 +5180,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5191,9 +5190,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5225,8 +5224,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5302,8 +5301,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 0,
+															"minor" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5374,24 +5373,24 @@
  ],
 														"styles" : [ 															{
 																"name" : "black on white",
-																"number" : 																{
-																	"fontsize" : [ 12.0 ],
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-																	"fontname" : [ "Arial" ]
-																}
-,
 																"umenu" : 																{
-																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
+																		"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 																		"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
-
+,
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+																}
+,
+																"number" : 																{
+																	"fontname" : [ "Arial" ],
+																	"fontsize" : [ 12.0 ],
+																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5400,8 +5399,8 @@
 , 															{
 																"name" : "caption text",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
-																	"fontface" : [ 2 ]
+																	"fontface" : [ 2 ],
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5410,9 +5409,9 @@
 , 															{
 																"name" : "section dividers",
 																"default" : 																{
-																	"fontsize" : [ 15.0 ],
+																	"fontface" : [ 3 ],
 																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 3 ]
+																	"fontsize" : [ 15.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5421,8 +5420,8 @@
 , 															{
 																"name" : "section info reg",
 																"default" : 																{
-																	"fontsize" : [ 12.0 ],
-																	"fontname" : [ "Arial" ]
+																	"fontname" : [ "Arial" ],
+																	"fontsize" : [ 12.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5431,9 +5430,9 @@
 , 															{
 																"name" : "titles",
 																"default" : 																{
-																	"fontsize" : [ 20.0 ],
+																	"fontface" : [ 1 ],
 																	"fontname" : [ "Arial" ],
-																	"fontface" : [ 1 ]
+																	"fontsize" : [ 20.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -5735,24 +5734,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5761,8 +5760,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5771,9 +5770,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5782,8 +5781,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5792,9 +5791,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5850,8 +5849,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5922,24 +5921,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5948,8 +5947,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5958,9 +5957,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5969,8 +5968,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5979,9 +5978,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6493,24 +6492,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6519,8 +6518,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6529,9 +6528,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6540,8 +6539,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6550,9 +6549,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6584,8 +6583,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6631,8 +6630,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6703,24 +6702,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6729,8 +6728,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6739,9 +6738,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6750,8 +6749,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6760,9 +6759,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6827,8 +6826,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6972,24 +6971,24 @@
 										"lines" : [  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6998,8 +6997,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7008,9 +7007,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7019,8 +7018,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7029,9 +7028,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7527,24 +7526,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7553,8 +7552,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7563,9 +7562,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7574,8 +7573,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7584,9 +7583,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7618,8 +7617,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7762,8 +7761,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7834,24 +7833,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7860,8 +7859,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7870,9 +7869,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7881,8 +7880,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7891,9 +7890,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -8092,24 +8091,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8118,8 +8117,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8128,9 +8127,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8139,8 +8138,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8149,9 +8148,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8183,8 +8182,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8243,8 +8242,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8388,24 +8387,24 @@
 										"lines" : [  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -8414,8 +8413,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -8424,9 +8423,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -8435,8 +8434,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -8445,9 +8444,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -8758,24 +8757,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8784,8 +8783,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8794,9 +8793,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8805,8 +8804,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8815,9 +8814,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8848,8 +8847,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8908,8 +8907,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8980,24 +8979,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9006,8 +9005,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9016,9 +9015,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9027,8 +9026,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9037,9 +9036,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -9382,8 +9381,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9650,24 +9649,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9676,8 +9675,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9686,9 +9685,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9697,8 +9696,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9707,9 +9706,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9740,14 +9739,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1180.0, 898.0 ],
+						"rect" : [ 100.0, 113.0, 1180.0, 898.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9824,8 +9823,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9971,8 +9970,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10292,8 +10291,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10448,13 +10447,11 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-2",
-													"linecount" : 11,
 													"maxclass" : "o.display",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 26.0, 160.0, 356.0, 174.0 ],
-													"text" : "/from : {\n  /uniqueid : \"9QlrjolHCthI7goBlh+ykg==\",\n  /ip : \"::1\",\n  /url : \"/1\"\n},\n/event : {\n  /val : {\n    /syncOffset : 0.2\n  },\n  /key : \"sync\"\n}"
+													"patching_rect" : [ 26.0, 160.0, 356.0, 174.0 ]
 												}
 
 											}
@@ -10463,13 +10460,11 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-23",
-													"linecount" : 4,
 													"maxclass" : "o.display",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 632.0, 170.0, 234.0, 76.0 ],
-													"text" : "/val : {\n  /syncOffset : 0.2\n},\n/key : \"sync\""
+													"patching_rect" : [ 632.0, 170.0, 234.0, 76.0 ]
 												}
 
 											}
@@ -10478,13 +10473,11 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-22",
-													"linecount" : 5,
 													"maxclass" : "o.display",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 538.5, 264.0, 284.0, 90.0 ],
-													"text" : "/val : {\n  /screensize : [320, 240],\n  /connected : 1\n},\n/key : \"status\""
+													"patching_rect" : [ 538.5, 264.0, 284.0, 90.0 ]
 												}
 
 											}
@@ -10492,7 +10485,7 @@
 												"box" : 												{
 													"id" : "obj-9",
 													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "FullPacket" ],
 													"patching_rect" : [ 443.0, 91.0, 82.0, 22.0 ],
@@ -10517,13 +10510,11 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 21,
 													"maxclass" : "o.display",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 444.0, 368.0, 356.0, 314.0 ],
-													"text" : "/val : {\n  /xy : [885, 643],\n  /target : {\n    /xmlns:xlink : \"http://www.w3.org/1999/xlink\",\n    /id : \"svg\",\n    /type : \"svg\",\n    /baseProfile : \"full\",\n    /xmlns : \"http://www.w3.org/2000/svg\",\n    /version : \"1.1\"\n  },\n  /mods : {\n    /alt : 0,\n    /shift : 0,\n    /ctrl : 0,\n    /meta : 1\n  },\n  /action : \"mouseover\",\n  /button : 0\n},\n/key : \"mouse\""
+													"patching_rect" : [ 444.0, 368.0, 356.0, 314.0 ]
 												}
 
 											}
@@ -10622,24 +10613,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10648,8 +10639,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10658,9 +10649,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10669,8 +10660,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10679,9 +10670,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10876,8 +10867,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10928,13 +10919,11 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-13",
-													"linecount" : 23,
 													"maxclass" : "o.display",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 48.0, 95.0, 392.0, 333.0 ],
-													"text" : "/stop/success : {\n\t/id : \"u79950460339\",\n\t/time : 2019-07-16T19:02:36.015954Z\n},\n/terminated/success : {\n\t/willRestart : 0,\n\t/id : \"u79950460339\",\n\t/time : 2019-07-16T19:02:36.015878Z\n},\n/start/success : {\n\t/debugPort,\n\t/cwd : \"/Volumes/Macintosh HD/Users/r/Documents/Max 8/Packages/drawsocket/code/node\",\n\t/filename : \"drawsocket-server.js\",\n\t/pid : 73300,\n\t/watch : 1,\n\t/debugEnabled : 0,\n\t/socketDescription : {\n\t\t/control : \"/tmp/u79950460339_ctrl.sock\"\n\t},\n\t/id : \"u79950460339\",\n\t/time : 2019-07-16T19:02:34.117101Z\n}"
+													"patching_rect" : [ 48.0, 95.0, 392.0, 333.0 ]
 												}
 
 											}
@@ -10969,24 +10958,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10995,8 +10984,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -11005,9 +10994,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -11016,8 +11005,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -11026,9 +11015,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -11060,8 +11049,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11239,8 +11228,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 239.0, 430.0, 316.0, 51.0 ],
-									"text" : "When running the first time you will need to be online. \nRun \"script npm install drawsocket\" to download the required node packages."
+									"patching_rect" : [ 285.5, 422.0, 316.0, 51.0 ],
+									"text" : "When running the first time you will need to be online. \nRun \"script npm install drawsocket\" to download the required node packages to package folder."
 								}
 
 							}
@@ -11251,8 +11240,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 70.5, 446.5, 162.0, 22.0 ],
-									"text" : "script npm install drawsocket"
+									"patching_rect" : [ 70.5, 436.5, 213.0, 22.0 ],
+									"text" : "script npm install drawsocket --prefix ./"
 								}
 
 							}
@@ -11428,24 +11417,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11454,8 +11443,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11464,9 +11453,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11475,8 +11464,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11485,9 +11474,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11519,8 +11508,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11632,8 +11621,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11672,7 +11661,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"linecount" : 9,
+									"linecount" : 11,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -11680,7 +11669,7 @@
 									"patching_rect" : [ 1335.0, 21.5, 165.0, 133.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -84, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 0, 116, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 118, 105, 100, 101, 111, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 112, 97, 117, 115, 101, 0, 0, 0 ],
 									"saved_bundle_length" : 192,
-									"text" : "/* : {\n\t/key : \"html\",\n\t/val : {\n\t\t/id : \"foovideo\",\n\t\t/call : {\n\t\t\t/method : \"pause\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"html\",\n  /val : {\n    /id : \"foovideo\",\n    /call : {\n      /method : \"pause\"\n    }\n  }\n}"
 								}
 
 							}
@@ -11697,7 +11686,7 @@
 									"patching_rect" : [ 231.5, 765.0, 150.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 76, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0 ],
 									"saved_bundle_length" : 96,
-									"text" : "/* : {\n\t/key : \"clear\",\n\t/val : \"tween\"\n}"
+									"text" : "/* : {\n  /key : \"clear\",\n  /val : \"tween\"\n}"
 								}
 
 							}
@@ -11706,7 +11695,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-12",
-									"linecount" : 8,
+									"linecount" : 9,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -11714,7 +11703,7 @@
 									"patching_rect" : [ 254.5, 563.0, 150.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 111, 112, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/cmd : \"stop\",\n\t\t/id : \"fooTween\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /cmd : \"stop\",\n    /id : \"fooTween\"\n  }\n}"
 								}
 
 							}
@@ -11723,7 +11712,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-13",
-									"linecount" : 12,
+									"linecount" : 14,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -11731,7 +11720,7 @@
 									"patching_rect" : [ 496.5, 575.0, 150.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -52, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, -108, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 115, 101, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 224,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : [{\n\t\t/cmd : \"reset\",\n\t\t/id : \"foo_line\"\n\t}, {\n\t\t/cmd : \"start\",\n\t\t/id : \"fooTween\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : [{\n    /cmd : \"reset\",\n    /id : \"foo_line\"\n  }, {\n    /cmd : \"start\",\n    /id : \"fooTween\"\n  }]\n}"
 								}
 
 							}
@@ -11740,7 +11729,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-37",
-									"linecount" : 8,
+									"linecount" : 10,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -11748,7 +11737,7 @@
 									"patching_rect" : [ 454.0, 769.0, 143.0, 119.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 84, 47, 42, 47, 116, 105, 109, 101, 108, 105, 110, 101, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 84, 47, 42, 47, 116, 119, 101, 101, 110, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 115, 101, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 192,
-									"text" : "/*/timeline : {\n\t/cmd : \"start\",\n\t/id : \"foo_line\"\n},\n/*/tween : {\n\t/cmd : \"reset\",\n\t/id : \"fooTween\"\n}"
+									"text" : "/*/timeline : {\n  /cmd : \"start\",\n  /id : \"foo_line\"\n},\n/*/tween : {\n  /cmd : \"reset\",\n  /id : \"fooTween\"\n}"
 								}
 
 							}
@@ -11757,7 +11746,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-36",
-									"linecount" : 12,
+									"linecount" : 14,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -11765,7 +11754,7 @@
 									"patching_rect" : [ 496.5, 424.0, 150.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -52, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, -108, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 115, 101, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 224,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : [{\n\t\t/cmd : \"start\",\n\t\t/id : \"foo_line\"\n\t}, {\n\t\t/cmd : \"reset\",\n\t\t/id : \"fooTween\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : [{\n    /cmd : \"start\",\n    /id : \"foo_line\"\n  }, {\n    /cmd : \"reset\",\n    /id : \"fooTween\"\n  }]\n}"
 								}
 
 							}
@@ -11785,7 +11774,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 9,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -11793,7 +11782,7 @@
 									"patching_rect" : [ 235.5, 444.0, 150.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/cmd : \"start\",\n\t\t/id : \"fooTween\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /cmd : \"start\",\n    /id : \"fooTween\"\n  }\n}"
 								}
 
 							}
@@ -11844,7 +11833,7 @@
 									"patching_rect" : [ 70.5, 213.0, 157.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -76, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -128, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 20, 47, 99, 104, 105, 108, 100, 0, 0, 44, 115, 0, 0, 104, 101, 108, 108, 111, 33, 0, 0 ],
 									"saved_bundle_length" : 200,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/id : \"bar\",\n\t\t/new : \"text\",\n\t\t/x : 100,\n\t\t/y : 100,\n\t\t/child : \"hello!\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /id : \"bar\",\n    /new : \"text\",\n    /x : 100,\n    /y : 100,\n    /child : \"hello!\"\n  }\n}"
 								}
 
 							}
@@ -11905,7 +11894,7 @@
 									"patching_rect" : [ 662.5, 31.0, 293.0, 826.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 116, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 4, 104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 4, 60, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 4, 44, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 100, 47, 105, 110, 105, 116, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 117, 115, 101, 100, 0, 44, 115, 0, 0, 116, 114, 117, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 121, 111, 121, 111, 0, 0, 0, 44, 115, 0, 0, 116, 114, 117, 101, 0, 0, 0, 0, 0, 0, 0, 16, 47, 114, 101, 112, 101, 97, 116, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 3, -104, 47, 116, 119, 101, 101, 110, 115, 0, 44, 46, 46, 0, 0, 0, 1, -64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 1, -128, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 115, 99, 97, 108, 101, 88, 0, 44, 115, 0, 0, 53, 48, 37, 0, 0, 0, 0, 20, 47, 111, 112, 97, 99, 105, 116, 121, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0, 0, 0, 0, -8, 47, 111, 110, 83, 116, 97, 114, 116, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -28, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -48, 47, 102, 117, 110, 99, 116, 105, 111, 110, 0, 0, 0, 44, 115, 0, 0, 10, 32, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 105, 110, 112, 117, 116, 40, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 107, 101, 121, 58, 32, 39, 115, 118, 103, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 118, 97, 108, 58, 32, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 110, 101, 119, 58, 32, 39, 116, 101, 120, 116, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 105, 100, 58, 32, 39, 115, 101, 103, 109, 101, 110, 116, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 120, 58, 32, 49, 48, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 121, 58, 32, 52, 48, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 116, 101, 120, 116, 58, 32, 39, 49, 115, 116, 39, 10, 32, 32, 32, 32, 32, 32, 32, 32, 125, 10, 32, 32, 32, 32, 32, 32, 125, 41, 10, 32, 32, 32, 32, 32, 0, 0, 0, 0, 0, 1, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 2, 0, 0, 1, -124, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 99, 97, 108, 101, 0, 0, 44, 115, 0, 0, 49, 48, 48, 37, 0, 0, 0, 0, 0, 0, 0, 20, 47, 111, 112, 97, 99, 105, 116, 121, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0, 0, 0, 0, -8, 47, 111, 110, 83, 116, 97, 114, 116, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -28, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -48, 47, 102, 117, 110, 99, 116, 105, 111, 110, 0, 0, 0, 44, 115, 0, 0, 10, 32, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 105, 110, 112, 117, 116, 40, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 107, 101, 121, 58, 32, 39, 115, 118, 103, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 118, 97, 108, 58, 32, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 110, 101, 119, 58, 32, 39, 116, 101, 120, 116, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 105, 100, 58, 32, 39, 115, 101, 103, 109, 101, 110, 116, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 120, 58, 32, 49, 48, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 121, 58, 32, 52, 48, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 116, 101, 120, 116, 58, 32, 39, 50, 110, 100, 39, 10, 32, 32, 32, 32, 32, 32, 32, 32, 125, 10, 32, 32, 32, 32, 32, 32, 125, 41, 10, 32, 32, 32, 32, 32, 0, 0, 0 ],
 									"saved_bundle_length" : 1160,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/id : \"foo_line\",\n\t\t/init : {\n\t\t\t/paused : \"true\",\n\t\t\t/yoyo : \"true\",\n\t\t\t/repeat : 20\n\t\t},\n\t\t/tweens : [{\n\t\t\t/target : \"#bar\",\n\t\t\t/dur : 1,\n\t\t\t/vars : {\n\t\t\t\t/y : 0,\n\t\t\t\t/x : 0,\n\t\t\t\t/scaleX : \"50%\",\n\t\t\t\t/opacity : 1,\n\t\t\t\t/ease : \"linear\",\n\t\t\t\t/onStart : {\n\t\t\t\t\t/function : \"\n      drawsocket.input({\n        key: 'svg',\n        val: {\n          new: 'text',\n          id: 'segment',\n          x: 10,\n          y: 40,\n          text: '1st'\n        }\n      })\n     \"\n\t\t\t\t}\n\t\t\t}\n\t\t}, {\n\t\t\t/target : \"#bar\",\n\t\t\t/dur : 2,\n\t\t\t/vars : {\n\t\t\t\t/y : 10,\n\t\t\t\t/x : 0,\n\t\t\t\t/scale : \"100%\",\n\t\t\t\t/opacity : 1,\n\t\t\t\t/ease : \"linear\",\n\t\t\t\t/onStart : {\n\t\t\t\t\t/function : \"\n      drawsocket.input({\n        key: 'svg',\n        val: {\n          new: 'text',\n          id: 'segment',\n          x: 10,\n          y: 40,\n          text: '2nd'\n        }\n      })\n     \"\n\t\t\t\t}\n\t\t\t}\n\t\t}]\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /id : \"foo_line\",\n    /init : {\n      /paused : \"true\",\n      /yoyo : \"true\",\n      /repeat : 20\n    },\n    /tweens : [{\n      /target : \"#bar\",\n      /dur : 1,\n      /vars : {\n        /y : 0,\n        /x : 0,\n        /scaleX : \"50%\",\n        /opacity : 1,\n        /ease : \"linear\",\n        /onStart : {\n          /function : \"\n      drawsocket.input({\n        key: 'svg',\n        val: {\n          new: 'text',\n          id: 'segment',\n          x: 10,\n          y: 40,\n          text: '1st'\n        }\n      })\n     \"\n        }\n      }\n    }, {\n      /target : \"#bar\",\n      /dur : 2,\n      /vars : {\n        /y : 10,\n        /x : 0,\n        /scale : \"100%\",\n        /opacity : 1,\n        /ease : \"linear\",\n        /onStart : {\n          /function : \"\n      drawsocket.input({\n        key: 'svg',\n        val: {\n          new: 'text',\n          id: 'segment',\n          x: 10,\n          y: 40,\n          text: '2nd'\n        }\n      })\n     \"\n        }\n      }\n    }]\n  }\n}"
 								}
 
 							}
@@ -11922,7 +11911,7 @@
 									"patching_rect" : [ 231.5, 51.0, 301.0, 391.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, 0, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 1, -44, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 1, 108, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 1, 114, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 20, 47, 112, 97, 117, 115, 101, 100, 0, 44, 115, 0, 0, 116, 114, 117, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0, 0, 0, 0, -8, 47, 111, 110, 85, 112, 100, 97, 116, 101, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -28, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -48, 47, 102, 117, 110, 99, 116, 105, 111, 110, 0, 0, 0, 44, 115, 0, 0, 10, 32, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 105, 110, 112, 117, 116, 40, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 107, 101, 121, 58, 32, 39, 115, 118, 103, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 118, 97, 108, 58, 32, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 110, 101, 119, 58, 32, 39, 116, 101, 120, 116, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 105, 100, 58, 32, 39, 116, 105, 109, 101, 39, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 120, 58, 32, 49, 48, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 121, 58, 32, 50, 48, 44, 10, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 116, 101, 120, 116, 58, 32, 116, 104, 105, 115, 46, 116, 105, 109, 101, 40, 41, 10, 32, 32, 32, 32, 32, 32, 32, 32, 125, 10, 32, 32, 32, 32, 32, 32, 125, 41, 10, 32, 32, 32, 32, 0 ],
 									"saved_bundle_length" : 544,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/id : \"fooTween\",\n\t\t/target : \"#bar\",\n\t\t/dur : 10,\n\t\t/vars : {\n\t\t\t/y : 370,\n\t\t\t/x : 100,\n\t\t\t/paused : \"true\",\n\t\t\t/ease : \"linear\",\n\t\t\t/onUpdate : {\n\t\t\t\t/function : \"\n      drawsocket.input({\n        key: 'svg',\n        val: {\n          new: 'text',\n          id: 'time',\n          x: 10,\n          y: 20,\n          text: this.time()\n        }\n      })\n    \"\n\t\t\t}\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /id : \"fooTween\",\n    /target : \"#bar\",\n    /dur : 10,\n    /vars : {\n      /y : 370,\n      /x : 100,\n      /paused : \"true\",\n      /ease : \"linear\",\n      /onUpdate : {\n        /function : \"\n      drawsocket.input({\n        key: 'svg',\n        val: {\n          new: 'text',\n          id: 'time',\n          x: 10,\n          y: 20,\n          text: this.time()\n        }\n      })\n    \"\n      }\n    }\n  }\n}"
 								}
 
 							}
@@ -12005,24 +11994,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12031,8 +12020,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12041,9 +12030,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12052,8 +12041,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12062,9 +12051,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12109,8 +12098,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12183,7 +12172,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-14",
-									"linecount" : 35,
+									"linecount" : 38,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -12191,7 +12180,7 @@
 									"patching_rect" : [ 49.0, 120.0, 193.0, 473.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, -92, 47, 42, 0, 0, 44, 46, 46, 0, 0, 0, 1, 88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 115, 115, 0, 0, 0, 1, 48, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 101, 108, 101, 99, 116, 111, 114, 0, 0, 0, 44, 115, 0, 0, 46, 111, 112, 101, 110, 0, 0, 0, 0, 0, 0, 108, 47, 112, 114, 111, 112, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, 92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 2, 0, 0, 0, 20, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 110, 111, 110, 101, 0, 0, 0, 0, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 101, 108, 101, 99, 116, 111, 114, 0, 0, 0, 44, 115, 0, 0, 46, 99, 108, 111, 115, 101, 100, 0, 0, 0, 0, 80, 47, 112, 114, 111, 112, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 110, 111, 110, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 1, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 20, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 111, 112, 101, 110, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 15, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 20, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 99, 108, 111, 115, 101, 100, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 45, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10 ],
 									"saved_bundle_length" : 696,
-									"text" : "/* : [{\n\t/key : \"css\",\n\t/val : [{\n\t\t/selector : \".open\",\n\t\t/props : {\n\t\t\t/stroke : \"black\",\n\t\t\t/stroke-width : 2,\n\t\t\t/fill : \"none\"\n\t\t}\n\t}, {\n\t\t/selector : \".closed\",\n\t\t/props : {\n\t\t\t/stroke : \"none\",\n\t\t\t/fill : \"black\"\n\t\t}\n\t}]\n}, {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/new : \"circle\",\n\t\t/class : \"open\",\n\t\t/id : \"foo\",\n\t\t/cx : 15,\n\t\t/cy : 100,\n\t\t/r : 10\n\t}, {\n\t\t/new : \"circle\",\n\t\t/class : \"closed\",\n\t\t/id : \"bar\",\n\t\t/cx : 45,\n\t\t/cy : 100,\n\t\t/r : 10\n\t}]\n}]"
+									"text" : "/* : [{\n  /key : \"css\",\n  /val : [{\n    /selector : \".open\",\n    /props : {\n      /stroke : \"black\",\n      /stroke-width : 2,\n      /fill : \"none\"\n    }\n  }, {\n    /selector : \".closed\",\n    /props : {\n      /stroke : \"none\",\n      /fill : \"black\"\n    }\n  }]\n}, {\n  /key : \"svg\",\n  /val : [{\n    /new : \"circle\",\n    /class : \"open\",\n    /id : \"foo\",\n    /cx : 15,\n    /cy : 100,\n    /r : 10\n  }, {\n    /new : \"circle\",\n    /class : \"closed\",\n    /id : \"bar\",\n    /cx : 45,\n    /cy : 100,\n    /r : 10\n  }]\n}]"
 								}
 
 							}
@@ -12206,24 +12195,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12232,8 +12221,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12242,9 +12231,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12253,8 +12242,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12263,9 +12252,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12298,8 +12287,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12350,7 +12339,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-7",
-									"linecount" : 9,
+									"linecount" : 11,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -12358,7 +12347,7 @@
 									"patching_rect" : [ 363.0, 436.5, 165.0, 133.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -84, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 0, 116, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 118, 105, 100, 101, 111, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 112, 97, 117, 115, 101, 0, 0, 0 ],
 									"saved_bundle_length" : 192,
-									"text" : "/* : {\n\t/key : \"html\",\n\t/val : {\n\t\t/id : \"foovideo\",\n\t\t/call : {\n\t\t\t/method : \"pause\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"html\",\n  /val : {\n    /id : \"foovideo\",\n    /call : {\n      /method : \"pause\"\n    }\n  }\n}"
 								}
 
 							}
@@ -12375,7 +12364,7 @@
 									"patching_rect" : [ 132.5, 429.5, 157.0, 133.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -84, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 0, 116, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 118, 105, 100, 101, 111, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 112, 108, 97, 121, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 192,
-									"text" : "/* : {\n\t/key : \"html\",\n\t/val : {\n\t\t/id : \"foovideo\",\n\t\t/call : {\n\t\t\t/method : \"play\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"html\",\n  /val : {\n    /id : \"foovideo\",\n    /call : {\n      /method : \"play\"\n    }\n  }\n}"
 								}
 
 							}
@@ -12421,7 +12410,7 @@
 									"patching_rect" : [ 87.0, 108.0, 690.0, 242.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -80, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, -92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 1, 120, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 102, 111, 114, 109, 115, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 118, 105, 100, 101, 111, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 118, 105, 100, 101, 111, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 111, 110, 116, 114, 111, 108, 115, 0, 0, 0, 44, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, -72, 47, 99, 104, 105, 108, 100, 0, 0, 44, 46, 0, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 114, 99, 101, 0, 0, 0, 0, 0, 24, 47, 116, 121, 112, 101, 0, 0, 0, 44, 115, 0, 0, 118, 105, 100, 101, 111, 47, 109, 112, 52, 0, 0, 0, 0, 0, 0, 96, 47, 115, 114, 99, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 116, 112, 58, 47, 47, 99, 111, 109, 109, 111, 110, 100, 97, 116, 97, 115, 116, 111, 114, 97, 103, 101, 46, 103, 111, 111, 103, 108, 101, 97, 112, 105, 115, 46, 99, 111, 109, 47, 103, 116, 118, 45, 118, 105, 100, 101, 111, 115, 45, 98, 117, 99, 107, 101, 116, 47, 115, 97, 109, 112, 108, 101, 47, 84, 101, 97, 114, 115, 79, 102, 83, 116, 101, 101, 108, 46, 109, 112, 52, 0, 0, 0, 0, 0, 0, 56, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 122, 45, 105, 110, 100, 101, 120, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100 ],
 									"saved_bundle_length" : 452,
-									"text" : "/* : {\n\t/key : \"html\",\n\t/val : {\n\t\t/parent : \"forms\",\n\t\t/new : \"video\",\n\t\t/id : \"foovideo\",\n\t\t/controls : \"\",\n\t\t/child : {\n\t\t\t/new : \"source\",\n\t\t\t/type : \"video/mp4\",\n\t\t\t/src : \"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4\"\n\t\t},\n\t\t/style : {\n\t\t\t/z-index : 100\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"html\",\n  /val : {\n    /parent : \"forms\",\n    /new : \"video\",\n    /id : \"foovideo\",\n    /controls : \"\",\n    /child : {\n      /new : \"source\",\n      /type : \"video/mp4\",\n      /src : \"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4\"\n    },\n    /style : {\n      /z-index : 100\n    }\n  }\n}"
 								}
 
 							}
@@ -12457,24 +12446,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12483,8 +12472,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12493,9 +12482,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12504,8 +12493,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12514,9 +12503,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12549,8 +12538,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12608,7 +12597,7 @@
 									"patching_rect" : [ 63.754718780517578, 279.5, 265.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 102, 105, 108, 101, 0, 0, 0, 0, 0, 0, 0, 80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 102, 101, 116, 99, 104, 0, 0, 44, 115, 0, 0, 98, 108, 117, 101, 115, 46, 106, 115, 111, 110, 0, 0, 0, 0, 0, 16, 47, 112, 114, 101, 102, 105, 120, 0, 44, 115, 0, 0, 49, 52, 52, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/* : {\n\t/key : \"file\",\n\t/val : {\n\t\t/fetch : \"blues.json\",\n\t\t/prefix : \"144\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"file\",\n  /val : {\n    /fetch : \"blues.json\",\n    /prefix : \"144\"\n  }\n}"
 								}
 
 							}
@@ -12635,24 +12624,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12661,8 +12650,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12671,9 +12660,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12682,8 +12671,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12692,9 +12681,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12727,8 +12716,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12775,7 +12764,7 @@
 									"patching_rect" : [ 236.5, 689.0, 150.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 76, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0 ],
 									"saved_bundle_length" : 96,
-									"text" : "/* : {\n\t/key : \"clear\",\n\t/val : \"tween\"\n}"
+									"text" : "/* : {\n  /key : \"clear\",\n  /val : \"tween\"\n}"
 								}
 
 							}
@@ -12784,7 +12773,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-12",
-									"linecount" : 8,
+									"linecount" : 9,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -12792,7 +12781,7 @@
 									"patching_rect" : [ 240.5, 482.0, 150.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 111, 112, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/cmd : \"stop\",\n\t\t/id : \"fooTween\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /cmd : \"stop\",\n    /id : \"fooTween\"\n  }\n}"
 								}
 
 							}
@@ -12801,7 +12790,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-13",
-									"linecount" : 12,
+									"linecount" : 14,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -12809,7 +12798,7 @@
 									"patching_rect" : [ 501.5, 499.0, 150.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -52, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, -108, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 115, 101, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 224,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : [{\n\t\t/cmd : \"reset\",\n\t\t/id : \"foo_line\"\n\t}, {\n\t\t/cmd : \"start\",\n\t\t/id : \"fooTween\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : [{\n    /cmd : \"reset\",\n    /id : \"foo_line\"\n  }, {\n    /cmd : \"start\",\n    /id : \"fooTween\"\n  }]\n}"
 								}
 
 							}
@@ -12826,7 +12815,7 @@
 									"patching_rect" : [ 986.5, 267.0, 150.0, 255.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 84, 47, 42, 47, 116, 119, 101, 101, 110, 47, 116, 111, 0, 44, 46, 0, 0, 0, 0, 1, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, -24, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -84, 47, 98, 101, 122, 105, 101, 114, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, -6, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 1, 44, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 1, -12, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 1, -112, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0 ],
 									"saved_bundle_length" : 360,
-									"text" : "/*/tween/to : {\n\t/id : \"fooTween\",\n\t/target : \"#bar\",\n\t/dur : 10,\n\t/vars : {\n\t\t/bezier : [{\n\t\t\t/x : 100,\n\t\t\t/y : 250\n\t\t}, {\n\t\t\t/x : 300,\n\t\t\t/y : 0\n\t\t}, {\n\t\t\t/x : 500,\n\t\t\t/y : 400\n\t\t}],\n\t\t/ease : \"linear\"\n\t}\n}"
+									"text" : "/*/tween/to : {\n  /id : \"fooTween\",\n  /target : \"#bar\",\n  /dur : 10,\n  /vars : {\n    /bezier : [{\n      /x : 100,\n      /y : 250\n    }, {\n      /x : 300,\n      /y : 0\n    }, {\n      /x : 500,\n      /y : 400\n    }],\n    /ease : \"linear\"\n  }\n}"
 								}
 
 							}
@@ -12835,7 +12824,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-37",
-									"linecount" : 8,
+									"linecount" : 10,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -12843,7 +12832,7 @@
 									"patching_rect" : [ 459.0, 693.0, 143.0, 119.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 84, 47, 42, 47, 116, 105, 109, 101, 108, 105, 110, 101, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 84, 47, 42, 47, 116, 119, 101, 101, 110, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 115, 101, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 192,
-									"text" : "/*/timeline : {\n\t/cmd : \"start\",\n\t/id : \"foo_line\"\n},\n/*/tween : {\n\t/cmd : \"reset\",\n\t/id : \"fooTween\"\n}"
+									"text" : "/*/timeline : {\n  /cmd : \"start\",\n  /id : \"foo_line\"\n},\n/*/tween : {\n  /cmd : \"reset\",\n  /id : \"fooTween\"\n}"
 								}
 
 							}
@@ -12852,7 +12841,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-36",
-									"linecount" : 12,
+									"linecount" : 14,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -12860,7 +12849,7 @@
 									"patching_rect" : [ 501.5, 348.0, 150.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -52, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, -108, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 115, 101, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 224,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : [{\n\t\t/cmd : \"start\",\n\t\t/id : \"foo_line\"\n\t}, {\n\t\t/cmd : \"reset\",\n\t\t/id : \"fooTween\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : [{\n    /cmd : \"start\",\n    /id : \"foo_line\"\n  }, {\n    /cmd : \"reset\",\n    /id : \"fooTween\"\n  }]\n}"
 								}
 
 							}
@@ -12880,7 +12869,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 9,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -12888,7 +12877,7 @@
 									"patching_rect" : [ 240.5, 368.0, 150.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/cmd : \"start\",\n\t\t/id : \"fooTween\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /cmd : \"start\",\n    /id : \"fooTween\"\n  }\n}"
 								}
 
 							}
@@ -12939,7 +12928,7 @@
 									"patching_rect" : [ 75.5, 137.0, 157.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -76, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -128, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 20, 47, 99, 104, 105, 108, 100, 0, 0, 44, 115, 0, 0, 104, 101, 108, 108, 111, 33, 0, 0 ],
 									"saved_bundle_length" : 200,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/id : \"bar\",\n\t\t/new : \"text\",\n\t\t/x : 100,\n\t\t/y : 100,\n\t\t/child : \"hello!\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /id : \"bar\",\n    /new : \"text\",\n    /x : 100,\n    /y : 100,\n    /child : \"hello!\"\n  }\n}"
 								}
 
 							}
@@ -13000,7 +12989,7 @@
 									"patching_rect" : [ 658.5, 208.0, 293.0, 445.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 124, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 2, 68, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 2, 52, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 95, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 100, 47, 105, 110, 105, 116, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 117, 115, 101, 100, 0, 44, 115, 0, 0, 116, 114, 117, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 121, 111, 121, 111, 0, 0, 0, 44, 115, 0, 0, 116, 114, 117, 101, 0, 0, 0, 0, 0, 0, 0, 16, 47, 114, 101, 112, 101, 97, 116, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 1, -96, 47, 116, 119, 101, 101, 110, 115, 0, 44, 46, 46, 0, 0, 0, 0, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, -124, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 115, 99, 97, 108, 101, 88, 0, 44, 115, 0, 0, 53, 48, 37, 0, 0, 0, 0, 20, 47, 111, 112, 97, 99, 105, 116, 121, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0, 0, 0, 0, -56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 2, 0, 0, 0, -120, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 99, 97, 108, 101, 0, 0, 44, 115, 0, 0, 49, 48, 48, 37, 0, 0, 0, 0, 0, 0, 0, 20, 47, 111, 112, 97, 99, 105, 116, 121, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0 ],
 									"saved_bundle_length" : 656,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/id : \"foo_line\",\n\t\t/init : {\n\t\t\t/paused : \"true\",\n\t\t\t/yoyo : \"true\",\n\t\t\t/repeat : 20\n\t\t},\n\t\t/tweens : [{\n\t\t\t/target : \"#bar\",\n\t\t\t/dur : 1,\n\t\t\t/vars : {\n\t\t\t\t/y : 0,\n\t\t\t\t/x : 0,\n\t\t\t\t/scaleX : \"50%\",\n\t\t\t\t/opacity : 1,\n\t\t\t\t/ease : \"linear\"\n\t\t\t}\n\t\t}, {\n\t\t\t/target : \"#bar\",\n\t\t\t/dur : 2,\n\t\t\t/vars : {\n\t\t\t\t/y : 10,\n\t\t\t\t/x : 0,\n\t\t\t\t/scale : \"100%\",\n\t\t\t\t/opacity : 1,\n\t\t\t\t/ease : \"linear\"\n\t\t\t}\n\t\t}]\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /id : \"foo_line\",\n    /init : {\n      /paused : \"true\",\n      /yoyo : \"true\",\n      /repeat : 20\n    },\n    /tweens : [{\n      /target : \"#bar\",\n      /dur : 1,\n      /vars : {\n        /y : 0,\n        /x : 0,\n        /scaleX : \"50%\",\n        /opacity : 1,\n        /ease : \"linear\"\n      }\n    }, {\n      /target : \"#bar\",\n      /dur : 2,\n      /vars : {\n        /y : 10,\n        /x : 0,\n        /scale : \"100%\",\n        /opacity : 1,\n        /ease : \"linear\"\n      }\n    }]\n  }\n}"
 								}
 
 							}
@@ -13017,7 +13006,7 @@
 									"patching_rect" : [ 240.5, 137.0, 301.0, 201.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 4, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, -40, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 112, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 1, 114, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 20, 47, 112, 97, 117, 115, 101, 100, 0, 44, 115, 0, 0, 116, 114, 117, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0 ],
 									"saved_bundle_length" : 292,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/id : \"fooTween\",\n\t\t/target : \"#bar\",\n\t\t/dur : 1,\n\t\t/vars : {\n\t\t\t/y : 370,\n\t\t\t/x : 100,\n\t\t\t/paused : \"true\",\n\t\t\t/ease : \"linear\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /id : \"fooTween\",\n    /target : \"#bar\",\n    /dur : 1,\n    /vars : {\n      /y : 370,\n      /x : 100,\n      /paused : \"true\",\n      /ease : \"linear\"\n    }\n  }\n}"
 								}
 
 							}
@@ -13100,24 +13089,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13126,8 +13115,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13136,9 +13125,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13147,8 +13136,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13157,9 +13146,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13192,8 +13181,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13240,7 +13229,7 @@
 									"patching_rect" : [ 679.5, 448.0, 179.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -124, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 76, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 107, 105, 99, 107, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0 ],
 									"saved_bundle_length" : 152,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"kick\",\n\t\t/cmd : \"start\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"kick\",\n    /cmd : \"start\"\n  }\n}"
 								}
 
 							}
@@ -13279,8 +13268,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13327,7 +13316,7 @@
 													"patching_rect" : [ 563.5, 448.0, 179.0, 106.0 ],
 													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -124, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 76, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 107, 105, 99, 107, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0 ],
 													"saved_bundle_length" : 152,
-													"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"kick\",\n\t\t/cmd : \"start\"\n\t}\n}"
+													"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"kick\",\n    /cmd : \"start\"\n  }\n}"
 												}
 
 											}
@@ -13336,7 +13325,7 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-6",
-													"linecount" : 15,
+													"linecount" : 16,
 													"maxclass" : "o.compose",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -13344,7 +13333,7 @@
 													"patching_rect" : [ 560.0, 230.0, 309.0, 214.0 ],
 													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 1, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 0, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 80, 108, 97, 121, 101, 114, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 107, 105, 99, 107, 0, 0, 0, 0, 0, 0, 0, -128, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 117, 114, 108, 0, 0, 0, 0, 44, 115, 0, 0, 47, 109, 101, 100, 105, 97, 47, 56, 48, 56, 95, 109, 112, 51, 47, 99, 114, 97, 115, 104, 99, 121, 109, 46, 109, 112, 51, 0, 0, 0, 0, 24, 47, 97, 117, 116, 111, 115, 116, 97, 114, 116, 0, 0, 44, 115, 0, 0, 102, 97, 108, 115, 101, 0, 0, 0, 0, 0, 0, 20, 47, 108, 111, 111, 112, 0, 0, 0, 44, 115, 0, 0, 102, 97, 108, 115, 101, 0, 0, 0, 0, 0, 0, 60, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 44, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 111, 77, 97, 115, 116, 101, 114, 0, 0, 0, 0 ],
 													"saved_bundle_length" : 348,
-													"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/new : \"Player\",\n\t\t/id : \"kick\",\n\t\t/vars : {\n\t\t\t/url : \"/media/808_mp3/crashcym.mp3\",\n\t\t\t/autostart : \"false\",\n\t\t\t/loop : \"false\"\n\t\t},\n\t\t/call : {\n\t\t\t/method : \"toMaster\"\n\t\t}\n\t}\n}"
+													"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /new : \"Player\",\n    /id : \"kick\",\n    /vars : {\n      /url : \"/media/808_mp3/crashcym.mp3\",\n      /autostart : \"false\",\n      /loop : \"false\"\n    },\n    /call : {\n      /method : \"toMaster\"\n    }\n  }\n}"
 												}
 
 											}
@@ -13373,7 +13362,7 @@
 													"patching_rect" : [ 104.0, 65.0, 395.0, 513.0 ],
 													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, -100, 47, 42, 0, 0, 44, 46, 46, 0, 0, 0, 0, -56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 115, 115, 0, 0, 0, 0, -96, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 101, 108, 101, 99, 116, 111, 114, 0, 0, 0, 44, 115, 0, 0, 46, 114, 101, 97, 100, 121, 0, 0, 0, 0, 0, 96, 47, 112, 114, 111, 112, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, 80, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 98, 97, 99, 107, 103, 114, 111, 117, 110, 100, 45, 99, 111, 108, 111, 114, 0, 0, 0, 44, 115, 0, 0, 108, 105, 103, 104, 116, 98, 108, 117, 101, 0, 0, 0, 0, 0, 0, 20, 47, 99, 111, 108, 111, 114, 0, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 2, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 2, -104, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 2, -120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 102, 111, 114, 109, 115, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 114, 101, 97, 100, 121, 98, 117, 116, 116, 111, 110, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 98, 117, 116, 116, 111, 110, 0, 0, 0, 0, 0, 20, 47, 116, 101, 120, 116, 0, 0, 0, 44, 115, 0, 0, 114, 101, 97, 100, 121, 0, 0, 0, 0, 0, 0, 20, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 98, 117, 116, 116, 111, 110, 0, 0, 0, 0, 0, -128, 47, 111, 110, 108, 111, 97, 100, 0, 44, 115, 0, 0, 108, 101, 116, 32, 109, 115, 103, 32, 61, 32, 123, 125, 59, 10, 32, 32, 32, 32, 32, 108, 101, 116, 32, 97, 100, 100, 114, 32, 61, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 111, 115, 99, 112, 114, 101, 102, 105, 120, 43, 39, 47, 114, 101, 97, 100, 121, 98, 117, 116, 116, 111, 110, 39, 59, 10, 32, 32, 32, 32, 32, 109, 115, 103, 91, 97, 100, 100, 114, 93, 32, 61, 32, 48, 59, 10, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 115, 101, 110, 100, 40, 109, 115, 103, 41, 59, 0, 0, 0, 0, 0, 1, 120, 47, 111, 110, 99, 108, 105, 99, 107, 0, 0, 0, 0, 44, 115, 0, 0, 10, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 115, 116, 97, 114, 116, 65, 117, 100, 105, 111, 40, 41, 59, 10, 32, 32, 32, 32, 32, 108, 101, 116, 32, 109, 115, 103, 32, 61, 32, 123, 125, 59, 10, 32, 32, 32, 32, 32, 108, 101, 116, 32, 97, 100, 100, 114, 32, 61, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 111, 115, 99, 112, 114, 101, 102, 105, 120, 43, 39, 47, 114, 101, 97, 100, 121, 98, 117, 116, 116, 111, 110, 39, 59, 10, 32, 32, 32, 32, 32, 105, 102, 40, 32, 33, 116, 104, 105, 115, 46, 99, 108, 97, 115, 115, 76, 105, 115, 116, 46, 99, 111, 110, 116, 97, 105, 110, 115, 40, 39, 114, 101, 97, 100, 121, 39, 41, 32, 41, 10, 32, 32, 32, 32, 32, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 116, 104, 105, 115, 46, 99, 108, 97, 115, 115, 76, 105, 115, 116, 46, 97, 100, 100, 40, 39, 114, 101, 97, 100, 121, 39, 41, 59, 10, 32, 32, 32, 32, 32, 32, 32, 32, 109, 115, 103, 91, 97, 100, 100, 114, 93, 32, 61, 32, 49, 59, 10, 32, 32, 32, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 115, 101, 110, 100, 40, 109, 115, 103, 41, 59, 10, 32, 32, 32, 32, 32, 125, 32, 101, 108, 115, 101, 32, 123, 32, 10, 32, 32, 32, 32, 32, 32, 32, 32, 116, 104, 105, 115, 46, 99, 108, 97, 115, 115, 76, 105, 115, 116, 46, 114, 101, 109, 111, 118, 101, 40, 39, 114, 101, 97, 100, 121, 39, 41, 59, 10, 32, 32, 32, 32, 32, 32, 32, 32, 109, 115, 103, 91, 97, 100, 100, 114, 93, 32, 61, 32, 48, 59, 10, 32, 32, 32, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 115, 101, 110, 100, 40, 109, 115, 103, 41, 59, 10, 32, 32, 32, 32, 32, 125, 0 ],
 													"saved_bundle_length" : 944,
-													"text" : "/* : [{\n\t/key : \"css\",\n\t/val : {\n\t\t/selector : \".ready\",\n\t\t/props : {\n\t\t\t/background-color : \"lightblue\",\n\t\t\t/color : \"black\"\n\t\t}\n\t}\n}, {\n\t/key : \"html\",\n\t/val : {\n\t\t/parent : \"forms\",\n\t\t/id : \"readybutton\",\n\t\t/new : \"button\",\n\t\t/text : \"ready\",\n\t\t/class : \"button\",\n\t\t/onload : \"let msg = {};\n     let addr = drawsocket.oscprefix+'/readybutton';\n     msg[addr] = 0;\n     drawsocket.send(msg);\",\n\t\t/onclick : \"\n     drawsocket.startAudio();\n     let msg = {};\n     let addr = drawsocket.oscprefix+'/readybutton';\n     if( !this.classList.contains('ready') )\n     {\n        this.classList.add('ready');\n        msg[addr] = 1;\n        drawsocket.send(msg);\n     } else { \n        this.classList.remove('ready');\n        msg[addr] = 0;\n        drawsocket.send(msg);\n     }\"\n\t}\n}]"
+													"text" : "/* : [{\n  /key : \"css\",\n  /val : {\n    /selector : \".ready\",\n    /props : {\n      /background-color : \"lightblue\",\n      /color : \"black\"\n    }\n  }\n}, {\n  /key : \"html\",\n  /val : {\n    /parent : \"forms\",\n    /id : \"readybutton\",\n    /new : \"button\",\n    /text : \"ready\",\n    /class : \"button\",\n    /onload : \"let msg = {};\n     let addr = drawsocket.oscprefix+'/readybutton';\n     msg[addr] = 0;\n     drawsocket.send(msg);\",\n    /onclick : \"\n     drawsocket.startAudio();\n     let msg = {};\n     let addr = drawsocket.oscprefix+'/readybutton';\n     if( !this.classList.contains('ready') )\n     {\n        this.classList.add('ready');\n        msg[addr] = 1;\n        drawsocket.send(msg);\n     } else { \n        this.classList.remove('ready');\n        msg[addr] = 0;\n        drawsocket.send(msg);\n     }\"\n  }\n}]"
 												}
 
 											}
@@ -13427,7 +13416,7 @@
 									"patching_rect" : [ 679.5, 331.0, 179.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -124, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 76, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 107, 105, 99, 107, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0 ],
 									"saved_bundle_length" : 152,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"kick\",\n\t\t/cmd : \"start\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"kick\",\n    /cmd : \"start\"\n  }\n}"
 								}
 
 							}
@@ -13442,8 +13431,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13502,7 +13491,7 @@
 													"patching_rect" : [ 157.0, 543.0, 229.0, 119.0 ],
 													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -88, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 0, 112, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 115, 99, 114, 105, 112, 116, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 109, 121, 76, 105, 98, 0, 0, 0, 0, 0, 0, 32, 47, 115, 99, 114, 0, 0, 0, 0, 44, 115, 0, 0, 101, 120, 116, 101, 114, 110, 97, 108, 45, 115, 99, 114, 105, 112, 116, 46, 106, 115, 0, 0 ],
 													"saved_bundle_length" : 188,
-													"text" : "/* : {\n\t/key : \"html\",\n\t/val : {\n\t\t/new : \"script\",\n\t\t/id : \"myLib\",\n\t\t/scr : \"external-script.js\"\n\t}\n}"
+													"text" : "/* : {\n  /key : \"html\",\n  /val : {\n    /new : \"script\",\n    /id : \"myLib\",\n    /scr : \"external-script.js\"\n  }\n}"
 												}
 
 											}
@@ -13511,7 +13500,7 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 14,
+													"linecount" : 15,
 													"maxclass" : "o.compose",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -13519,7 +13508,7 @@
 													"patching_rect" : [ 351.0, 312.0, 287.0, 201.0 ],
 													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 40, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 28, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, -16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -32, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 112, 115, 121, 110, 116, 104, 0, 0, 0, 0, 0, -72, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 114, 105, 103, 103, 101, 114, 65, 116, 116, 97, 99, 107, 82, 101, 108, 101, 97, 115, 101, 0, 0, 0, 0, 0, 0, 0, 108, 47, 97, 114, 103, 115, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 115, 115, 0, 0, 0, 0, 69, 98, 52, 0, 71, 51, 0, 0, 67, 53, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 100, 0, 0, 63, -71, -103, -103, -103, -103, -103, -102 ],
 													"saved_bundle_length" : 316,
-													"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"psynth\",\n\t\t/call : {\n\t\t\t/method : \"triggerAttackRelease\",\n\t\t\t/args : [{\n\t\t\t\t/val : [\"Eb4\", \"G3\", \"C5\"]\n\t\t\t}, {\n\t\t\t\t/val : 0.1\n\t\t\t}]\n\t\t}\n\t}\n}"
+													"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"psynth\",\n    /call : {\n      /method : \"triggerAttackRelease\",\n      /args : [{\n        /val : [\"Eb4\", \"G3\", \"C5\"]\n      }, {\n        /val : 0.1\n      }]\n    }\n  }\n}"
 												}
 
 											}
@@ -13528,7 +13517,7 @@
 													"fontface" : 0,
 													"fontsize" : 12.0,
 													"id" : "obj-2",
-													"linecount" : 14,
+													"linecount" : 15,
 													"maxclass" : "o.compose",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -13536,7 +13525,7 @@
 													"patching_rect" : [ 346.0, 91.0, 287.0, 201.0 ],
 													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 40, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 28, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, -16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -32, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 112, 115, 121, 110, 116, 104, 0, 0, 0, 0, 0, -72, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 114, 105, 103, 103, 101, 114, 65, 116, 116, 97, 99, 107, 82, 101, 108, 101, 97, 115, 101, 0, 0, 0, 0, 0, 0, 0, 108, 47, 97, 114, 103, 115, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 115, 115, 0, 0, 0, 0, 69, 98, 51, 0, 71, 52, 0, 0, 67, 52, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 100, 0, 0, 63, -71, -103, -103, -103, -103, -103, -102 ],
 													"saved_bundle_length" : 316,
-													"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"psynth\",\n\t\t/call : {\n\t\t\t/method : \"triggerAttackRelease\",\n\t\t\t/args : [{\n\t\t\t\t/val : [\"Eb3\", \"G4\", \"C4\"]\n\t\t\t}, {\n\t\t\t\t/val : 0.1\n\t\t\t}]\n\t\t}\n\t}\n}"
+													"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"psynth\",\n    /call : {\n      /method : \"triggerAttackRelease\",\n      /args : [{\n        /val : [\"Eb3\", \"G4\", \"C4\"]\n      }, {\n        /val : 0.1\n      }]\n    }\n  }\n}"
 												}
 
 											}
@@ -13553,7 +13542,7 @@
 													"patching_rect" : [ 45.0, 23.0, 287.0, 269.0 ],
 													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -128, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 1, 72, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 80, 111, 108, 121, 83, 121, 110, 116, 104, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 112, 115, 121, 110, 116, 104, 0, 0, 0, 0, 0, -76, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 111, 108, 121, 112, 104, 111, 110, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 4, 0, 0, 0, 16, 47, 118, 111, 108, 117, 109, 101, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 100, 101, 116, 117, 110, 101, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 47, 118, 111, 105, 99, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 111, 98, 106, 0, 0, 0, 0, 44, 115, 0, 0, 84, 111, 110, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 103, 101, 116, 0, 0, 0, 0, 44, 115, 0, 0, 83, 121, 110, 116, 104, 0, 0, 0, 0, 0, 0, 60, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 44, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 111, 77, 97, 115, 116, 101, 114, 0, 0, 0, 0 ],
 													"saved_bundle_length" : 404,
-													"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/new : \"PolySynth\",\n\t\t/id : \"psynth\",\n\t\t/vars : {\n\t\t\t/polyphony : 4,\n\t\t\t/volume : 0,\n\t\t\t/detune : 0,\n\t\t\t/voice : {\n\t\t\t\t/obj : \"Tone\",\n\t\t\t\t/get : \"Synth\"\n\t\t\t}\n\t\t},\n\t\t/call : {\n\t\t\t/method : \"toMaster\"\n\t\t}\n\t}\n}"
+													"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /new : \"PolySynth\",\n    /id : \"psynth\",\n    /vars : {\n      /polyphony : 4,\n      /volume : 0,\n      /detune : 0,\n      /voice : {\n        /obj : \"Tone\",\n        /get : \"Synth\"\n      }\n    },\n    /call : {\n      /method : \"toMaster\"\n    }\n  }\n}"
 												}
 
 											}
@@ -13601,24 +13590,24 @@
  ],
 										"styles" : [ 											{
 												"name" : "black on white",
-												"number" : 												{
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"fontname" : [ "Arial" ]
-												}
-,
 												"umenu" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
+														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 														"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
-
+,
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+												}
+,
+												"number" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13627,8 +13616,8 @@
 , 											{
 												"name" : "caption text",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
-													"fontface" : [ 2 ]
+													"fontface" : [ 2 ],
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13637,9 +13626,9 @@
 , 											{
 												"name" : "section dividers",
 												"default" : 												{
-													"fontsize" : [ 15.0 ],
+													"fontface" : [ 3 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 3 ]
+													"fontsize" : [ 15.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13648,8 +13637,8 @@
 , 											{
 												"name" : "section info reg",
 												"default" : 												{
-													"fontsize" : [ 12.0 ],
-													"fontname" : [ "Arial" ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13658,9 +13647,9 @@
 , 											{
 												"name" : "titles",
 												"default" : 												{
-													"fontsize" : [ 20.0 ],
+													"fontface" : [ 1 ],
 													"fontname" : [ "Arial" ],
-													"fontface" : [ 1 ]
+													"fontsize" : [ 20.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -13686,7 +13675,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-22",
-									"linecount" : 10,
+									"linecount" : 11,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -13694,7 +13683,7 @@
 									"patching_rect" : [ 16.5, 592.0, 244.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -60, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -72, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, -116, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 84, 47, 115, 101, 116, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 101, 109, 98, 101, 114, 0, 44, 115, 0, 0, 102, 114, 101, 113, 117, 101, 110, 99, 121, 46, 118, 97, 108, 117, 101, 0, 0, 0, 0, 16, 47, 118, 97, 108, 117, 101, 0, 0, 44, 105, 0, 0, 0, 0, 3, 120 ],
 									"saved_bundle_length" : 216,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/set : {\n\t\t\t/member : \"frequency.value\",\n\t\t\t/value : 888\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /set : {\n      /member : \"frequency.value\",\n      /value : 888\n    }\n  }\n}"
 								}
 
 							}
@@ -13703,7 +13692,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-10",
-									"linecount" : 10,
+									"linecount" : 11,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -13711,7 +13700,7 @@
 									"patching_rect" : [ 285.5, 592.0, 244.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -60, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -72, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, -116, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 84, 47, 115, 101, 116, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 109, 101, 109, 98, 101, 114, 0, 44, 115, 0, 0, 102, 114, 101, 113, 117, 101, 110, 99, 121, 46, 118, 97, 108, 117, 101, 0, 0, 0, 0, 16, 47, 118, 97, 108, 117, 101, 0, 0, 44, 105, 0, 0, 0, 0, 3, -24 ],
 									"saved_bundle_length" : 216,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/set : {\n\t\t\t/member : \"frequency.value\",\n\t\t\t/value : 1000\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /set : {\n      /member : \"frequency.value\",\n      /value : 1000\n    }\n  }\n}"
 								}
 
 							}
@@ -13728,7 +13717,7 @@
 									"patching_rect" : [ 8.5, 19.0, 237.0, 269.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -128, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 1, 72, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 79, 115, 99, 105, 108, 108, 97, 116, 111, 114, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 120, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 121, 112, 101, 0, 0, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 102, 114, 101, 113, 117, 101, 110, 99, 121, 0, 0, 44, 105, 0, 0, 0, 0, 1, -72, 0, 0, 0, 16, 47, 115, 112, 114, 101, 97, 100, 0, 44, 105, 0, 0, 0, 0, 0, 40, 0, 0, 0, 16, 47, 118, 111, 108, 117, 109, 101, 0, 44, 105, 0, 0, -1, -1, -1, -12, 0, 0, 0, 120, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 111, 77, 97, 115, 116, 101, 114, 0, 0, 0, 0, 0, 0, 0, 56, 47, 116, 104, 101, 110, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0 ],
 									"saved_bundle_length" : 404,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/new : \"Oscillator\",\n\t\t/id : \"sine\",\n\t\t/vars : {\n\t\t\t/type : \"sine\",\n\t\t\t/frequency : 440,\n\t\t\t/spread : 40,\n\t\t\t/volume : -12\n\t\t},\n\t\t/call : {\n\t\t\t/method : \"toMaster\",\n\t\t\t/then : {\n\t\t\t\t/method : \"start\"\n\t\t\t}\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /new : \"Oscillator\",\n    /id : \"sine\",\n    /vars : {\n      /type : \"sine\",\n      /frequency : 440,\n      /spread : 40,\n      /volume : -12\n    },\n    /call : {\n      /method : \"toMaster\",\n      /then : {\n        /method : \"start\"\n      }\n    }\n  }\n}"
 								}
 
 							}
@@ -13798,7 +13787,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-13",
-									"linecount" : 9,
+									"linecount" : 10,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -13806,7 +13795,7 @@
 									"patching_rect" : [ 8.5, 301.0, 165.0, 133.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -88, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 112, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0 ],
 									"saved_bundle_length" : 188,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/call : {\n\t\t\t/method : \"start\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /call : {\n      /method : \"start\"\n    }\n  }\n}"
 								}
 
 							}
@@ -13815,7 +13804,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-12",
-									"linecount" : 9,
+									"linecount" : 10,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -13823,7 +13812,7 @@
 									"patching_rect" : [ 8.5, 448.0, 165.0, 133.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -88, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 112, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 115, 116, 111, 112, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 188,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"sine\",\n\t\t/call : {\n\t\t\t/method : \"stop\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"sine\",\n    /call : {\n      /method : \"stop\"\n    }\n  }\n}"
 								}
 
 							}
@@ -13832,7 +13821,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"linecount" : 9,
+									"linecount" : 10,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -13840,7 +13829,7 @@
 									"patching_rect" : [ 446.5, 321.0, 179.0, 133.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -88, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 0, 112, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 107, 105, 99, 107, 0, 0, 0, 0, 0, 0, 0, 56, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 114, 101, 115, 116, 97, 114, 116, 0 ],
 									"saved_bundle_length" : 188,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/id : \"kick\",\n\t\t/call : {\n\t\t\t/method : \"restart\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /id : \"kick\",\n    /call : {\n      /method : \"restart\"\n    }\n  }\n}"
 								}
 
 							}
@@ -13857,7 +13846,7 @@
 									"patching_rect" : [ 441.0, 88.0, 330.0, 214.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 117, 110, 100, 0, 0, 0, 0, 0, 1, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 0, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 80, 108, 97, 121, 101, 114, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 107, 105, 99, 107, 0, 0, 0, 0, 0, 0, 0, -128, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 47, 117, 114, 108, 0, 0, 0, 0, 44, 115, 0, 0, 47, 109, 101, 100, 105, 97, 47, 56, 48, 56, 95, 109, 112, 51, 47, 107, 105, 99, 107, 49, 46, 109, 112, 51, 0, 0, 0, 0, 0, 0, 0, 24, 47, 97, 117, 116, 111, 115, 116, 97, 114, 116, 0, 0, 44, 115, 0, 0, 102, 97, 108, 115, 101, 0, 0, 0, 0, 0, 0, 20, 47, 108, 111, 111, 112, 0, 0, 0, 44, 115, 0, 0, 102, 97, 108, 115, 101, 0, 0, 0, 0, 0, 0, 60, 47, 99, 97, 108, 108, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 44, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 101, 116, 104, 111, 100, 0, 44, 115, 0, 0, 116, 111, 77, 97, 115, 116, 101, 114, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 348,
-									"text" : "/* : {\n\t/key : \"sound\",\n\t/val : {\n\t\t/new : \"Player\",\n\t\t/id : \"kick\",\n\t\t/vars : {\n\t\t\t/url : \"/media/808_mp3/kick1.mp3\",\n\t\t\t/autostart : \"false\",\n\t\t\t/loop : \"false\"\n\t\t},\n\t\t/call : {\n\t\t\t/method : \"toMaster\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"sound\",\n  /val : {\n    /new : \"Player\",\n    /id : \"kick\",\n    /vars : {\n      /url : \"/media/808_mp3/kick1.mp3\",\n      /autostart : \"false\",\n      /loop : \"false\"\n    },\n    /call : {\n      /method : \"toMaster\"\n    }\n  }\n}"
 								}
 
 							}
@@ -13874,7 +13863,7 @@
 									"patching_rect" : [ 581.0, 599.0, 395.0, 282.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -128, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 76, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 112, 97, 116, 104, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 119, 111, 119, 0, 0, 0, 0, 52, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 114, 101, 100, 0, 0, 0, 0, 52, 47, 100, 0, 0, 44, 115, 0, 0, 77, 49, 48, 48, 44, 49, 48, 48, 97, 51, 48, 44, 51, 48, 44, 48, 44, 48, 44, 48, 44, 48, 45, 54, 48, 97, 51, 48, 44, 51, 48, 44, 48, 44, 48, 44, 48, 44, 48, 44, 54, 48, 0, 0, 0, 0, 0, -112, 47, 111, 110, 99, 108, 105, 99, 107, 0, 0, 0, 0, 44, 115, 0, 0, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 105, 110, 112, 117, 116, 40, 123, 10, 32, 32, 32, 32, 107, 101, 121, 58, 32, 39, 115, 111, 117, 110, 100, 39, 44, 10, 32, 32, 32, 32, 118, 97, 108, 58, 32, 123, 10, 32, 32, 32, 32, 32, 32, 105, 100, 58, 32, 39, 107, 105, 99, 107, 39, 44, 10, 32, 32, 32, 32, 32, 32, 99, 97, 108, 108, 58, 32, 123, 10, 32, 32, 32, 32, 32, 32, 32, 32, 109, 101, 116, 104, 111, 100, 32, 58, 32, 39, 114, 101, 115, 116, 97, 114, 116, 39, 32, 10, 32, 32, 32, 32, 32, 32, 125, 10, 32, 32, 32, 32, 125, 10, 125, 41, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 404,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/new : \"path\",\n\t\t/id : \"wow\",\n\t\t/style : {\n\t\t\t/fill : \"red\"\n\t\t},\n\t\t/d : \"M100,100a30,30,0,0,0,0-60a30,30,0,0,0,0,60\",\n\t\t/onclick : \"drawsocket.input({\n    key: 'sound',\n    val: {\n      id: 'kick',\n      call: {\n        method : 'restart' \n      }\n    }\n})\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /new : \"path\",\n    /id : \"wow\",\n    /style : {\n      /fill : \"red\"\n    },\n    /d : \"M100,100a30,30,0,0,0,0-60a30,30,0,0,0,0,60\",\n    /onclick : \"drawsocket.input({\n    key: 'sound',\n    val: {\n      id: 'kick',\n      call: {\n        method : 'restart' \n      }\n    }\n})\"\n  }\n}"
 								}
 
 							}
@@ -14051,8 +14040,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14099,7 +14088,7 @@
 									"patching_rect" : [ 333.0, 59.0, 496.0, 473.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, -8, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 2, -52, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 102, 111, 114, 109, 115, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 100, 105, 118, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 104, 97, 116, 0, 0, 0, 0, 0, 0, 0, 112, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 112, 111, 115, 105, 116, 105, 111, 110, 0, 0, 0, 44, 115, 0, 0, 97, 98, 115, 111, 108, 117, 116, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 111, 112, 0, 0, 0, 0, 44, 115, 0, 0, 50, 48, 48, 112, 120, 0, 0, 0, 0, 0, 0, 20, 47, 108, 101, 102, 116, 0, 0, 0, 44, 115, 0, 0, 49, 48, 48, 112, 120, 0, 0, 0, 0, 0, 1, 76, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 99, 104, 97, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 20, 47, 116, 121, 112, 101, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 117, 115, 101, 114, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 24, 47, 110, 97, 109, 101, 0, 0, 0, 44, 115, 0, 0, 117, 115, 101, 114, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 16, 47, 115, 105, 122, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, -88, 47, 111, 110, 107, 101, 121, 100, 111, 119, 110, 0, 0, 44, 115, 0, 0, 32, 105, 102, 40, 32, 101, 118, 101, 110, 116, 46, 107, 101, 121, 32, 61, 61, 32, 39, 69, 110, 116, 101, 114, 39, 32, 41, 123, 10, 32, 32, 32, 32, 32, 32, 108, 101, 116, 32, 111, 98, 106, 32, 61, 32, 123, 125, 59, 10, 32, 32, 32, 32, 32, 32, 111, 98, 106, 91, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 111, 115, 99, 112, 114, 101, 102, 105, 120, 43, 39, 47, 39, 43, 116, 104, 105, 115, 46, 105, 100, 43, 39, 47, 105, 110, 112, 117, 116, 39, 93, 32, 61, 32, 116, 104, 105, 115, 46, 118, 97, 108, 117, 101, 59, 10, 32, 32, 32, 32, 32, 32, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 115, 101, 110, 100, 40, 32, 111, 98, 106, 32, 41, 59, 10, 10, 125, 10, 0, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 99, 104, 97, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 97, 98, 101, 108, 0, 0, 0, 0, 0, 0, 24, 47, 102, 111, 114, 0, 0, 0, 0, 44, 115, 0, 0, 117, 115, 101, 114, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 112, 114, 111, 109, 112, 116, 0, 0, 0, 0, 0, 20, 47, 110, 97, 109, 101, 0, 0, 0, 44, 115, 0, 0, 112, 114, 111, 109, 112, 116, 0, 0, 0, 0, 0, 20, 47, 116, 101, 120, 116, 0, 0, 0, 44, 115, 0, 0, 104, 101, 108, 108, 111, 33, 0, 0 ],
 									"saved_bundle_length" : 792,
-									"text" : "/* : {\n\t/key : \"html\",\n\t/val : [{\n\t\t/parent : \"forms\",\n\t\t/new : \"div\",\n\t\t/id : \"chat\",\n\t\t/style : {\n\t\t\t/position : \"absolute\",\n\t\t\t/top : \"200px\",\n\t\t\t/left : \"100px\"\n\t\t}\n\t}, {\n\t\t/parent : \"chat\",\n\t\t/new : \"input\",\n\t\t/type : \"text\",\n\t\t/id : \"userinput\",\n\t\t/name : \"userinput\",\n\t\t/size : 10,\n\t\t/onkeydown : \" if( event.key == 'Enter' ){\n      let obj = {};\n      obj[drawsocket.oscprefix+'/'+this.id+'/input'] = this.value;\n      drawsocket.send( obj );\n\n}\n\"\n\t}, {\n\t\t/parent : \"chat\",\n\t\t/new : \"label\",\n\t\t/for : \"userinput\",\n\t\t/id : \"prompt\",\n\t\t/name : \"prompt\",\n\t\t/text : \"hello!\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"html\",\n  /val : [{\n    /parent : \"forms\",\n    /new : \"div\",\n    /id : \"chat\",\n    /style : {\n      /position : \"absolute\",\n      /top : \"200px\",\n      /left : \"100px\"\n    }\n  }, {\n    /parent : \"chat\",\n    /new : \"input\",\n    /type : \"text\",\n    /id : \"userinput\",\n    /name : \"userinput\",\n    /size : 10,\n    /onkeydown : \" if( event.key == 'Enter' ){\n      let obj = {};\n      obj[drawsocket.oscprefix+'/'+this.id+'/input'] = this.value;\n      drawsocket.send( obj );\n\n}\n\"\n  }, {\n    /parent : \"chat\",\n    /new : \"label\",\n    /for : \"userinput\",\n    /id : \"prompt\",\n    /name : \"prompt\",\n    /text : \"hello!\"\n  }]\n}"
 								}
 
 							}
@@ -14116,7 +14105,7 @@
 									"patching_rect" : [ 25.0, 480.0, 186.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -124, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 0, 76, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 112, 114, 111, 109, 112, 116, 0, 0, 0, 0, 0, 20, 47, 116, 101, 120, 116, 0, 0, 0, 44, 115, 0, 0, 103, 114, 101, 97, 116, 0, 0, 0 ],
 									"saved_bundle_length" : 152,
-									"text" : "/* : {\n\t/key : \"html\",\n\t/val : {\n\t\t/id : \"prompt\",\n\t\t/text : \"great\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"html\",\n  /val : {\n    /id : \"prompt\",\n    /text : \"great\"\n  }\n}"
 								}
 
 							}
@@ -14133,7 +14122,7 @@
 									"patching_rect" : [ -88.0, 43.0, 381.0, 391.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, -112, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, -124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 104, 116, 109, 108, 0, 0, 0, 0, 0, 0, 2, 88, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 102, 111, 114, 109, 115, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 100, 105, 118, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 104, 97, 116, 0, 0, 0, 0, 0, 0, 0, 112, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47, 112, 111, 115, 105, 116, 105, 111, 110, 0, 0, 0, 44, 115, 0, 0, 97, 98, 115, 111, 108, 117, 116, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 111, 112, 0, 0, 0, 0, 44, 115, 0, 0, 50, 48, 48, 112, 120, 0, 0, 0, 0, 0, 0, 20, 47, 108, 101, 102, 116, 0, 0, 0, 44, 115, 0, 0, 49, 48, 48, 112, 120, 0, 0, 0, 0, 0, 0, -40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 99, 104, 97, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 20, 47, 116, 121, 112, 101, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 117, 115, 101, 114, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 24, 47, 110, 97, 109, 101, 0, 0, 0, 44, 115, 0, 0, 117, 115, 101, 114, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 16, 47, 115, 105, 122, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 52, 47, 111, 110, 107, 101, 121, 100, 111, 119, 110, 0, 0, 44, 115, 0, 0, 100, 114, 97, 119, 115, 111, 99, 107, 101, 116, 46, 115, 117, 98, 109, 105, 116, 79, 110, 69, 110, 116, 101, 114, 75, 101, 121, 40, 116, 104, 105, 115, 41, 0, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 99, 104, 97, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 97, 98, 101, 108, 0, 0, 0, 0, 0, 0, 24, 47, 102, 111, 114, 0, 0, 0, 0, 44, 115, 0, 0, 117, 115, 101, 114, 105, 110, 112, 117, 116, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 112, 114, 111, 109, 112, 116, 0, 0, 0, 0, 0, 20, 47, 110, 97, 109, 101, 0, 0, 0, 44, 115, 0, 0, 112, 114, 111, 109, 112, 116, 0, 0, 0, 0, 0, 20, 47, 116, 101, 120, 116, 0, 0, 0, 44, 115, 0, 0, 104, 101, 108, 108, 111, 33, 0, 0 ],
 									"saved_bundle_length" : 676,
-									"text" : "/* : {\n\t/key : \"html\",\n\t/val : [{\n\t\t/parent : \"forms\",\n\t\t/new : \"div\",\n\t\t/id : \"chat\",\n\t\t/style : {\n\t\t\t/position : \"absolute\",\n\t\t\t/top : \"200px\",\n\t\t\t/left : \"100px\"\n\t\t}\n\t}, {\n\t\t/parent : \"chat\",\n\t\t/new : \"input\",\n\t\t/type : \"text\",\n\t\t/id : \"userinput\",\n\t\t/name : \"userinput\",\n\t\t/size : 10,\n\t\t/onkeydown : \"drawsocket.submitOnEnterKey(this)\"\n\t}, {\n\t\t/parent : \"chat\",\n\t\t/new : \"label\",\n\t\t/for : \"userinput\",\n\t\t/id : \"prompt\",\n\t\t/name : \"prompt\",\n\t\t/text : \"hello!\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"html\",\n  /val : [{\n    /parent : \"forms\",\n    /new : \"div\",\n    /id : \"chat\",\n    /style : {\n      /position : \"absolute\",\n      /top : \"200px\",\n      /left : \"100px\"\n    }\n  }, {\n    /parent : \"chat\",\n    /new : \"input\",\n    /type : \"text\",\n    /id : \"userinput\",\n    /name : \"userinput\",\n    /size : 10,\n    /onkeydown : \"drawsocket.submitOnEnterKey(this)\"\n  }, {\n    /parent : \"chat\",\n    /new : \"label\",\n    /for : \"userinput\",\n    /id : \"prompt\",\n    /name : \"prompt\",\n    /text : \"hello!\"\n  }]\n}"
 								}
 
 							}
@@ -14198,8 +14187,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14282,7 +14271,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-8",
-									"linecount" : 7,
+									"linecount" : 8,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14290,7 +14279,7 @@
 									"patching_rect" : [ 333.0, 462.0, 136.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 124, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 112, 97, 103, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 7, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 110, 101, 119, 112, 100, 102, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 112, 100, 102, 0 ],
 									"saved_bundle_length" : 144,
-									"text" : "/* : {\n\t/val : {\n\t\t/page : 7,\n\t\t/id : \"newpdf\"\n\t},\n\t/key : \"pdf\"\n}"
+									"text" : "/* : {\n  /val : {\n    /page : 7,\n    /id : \"newpdf\"\n  },\n  /key : \"pdf\"\n}"
 								}
 
 							}
@@ -14335,7 +14324,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-7",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14343,7 +14332,7 @@
 									"patching_rect" : [ 178.0, 505.0, 136.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 42, 47, 112, 100, 102, 0, 0, 44, 46, 0, 0, 0, 0, 0, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 110, 101, 119, 112, 100, 102, 0, 0, 0, 0, 0, 16, 47, 112, 97, 103, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 3 ],
 									"saved_bundle_length" : 92,
-									"text" : "/*/pdf : {\n\t/id : \"newpdf\",\n\t/page : 3\n}"
+									"text" : "/*/pdf : {\n  /id : \"newpdf\",\n  /page : 3\n}"
 								}
 
 							}
@@ -14360,7 +14349,7 @@
 									"patching_rect" : [ 63.5, 144.0, 345.0, 160.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -24, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 112, 100, 102, 0, 0, 0, 0, -76, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 110, 101, 119, 112, 100, 102, 0, 0, 0, 0, 0, 48, 47, 104, 114, 101, 102, 0, 0, 0, 44, 115, 0, 0, 47, 109, 101, 100, 105, 97, 47, 102, 108, 105, 110, 116, 95, 112, 105, 99, 99, 111, 108, 111, 95, 101, 120, 99, 101, 114, 112, 116, 46, 112, 100, 102, 0, 0, 0, 0, 0, 0, 0, 16, 47, 119, 105, 100, 116, 104, 0, 0, 44, 105, 0, 0, 0, 0, 1, -112, 0, 0, 0, 16, 47, 104, 101, 105, 103, 104, 116, 0, 44, 105, 0, 0, 0, 0, 3, 32, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 112, 97, 103, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 2 ],
 									"saved_bundle_length" : 252,
-									"text" : "/* : {\n\t/key : \"pdf\",\n\t/val : {\n\t\t/id : \"newpdf\",\n\t\t/href : \"/media/flint_piccolo_excerpt.pdf\",\n\t\t/width : 400,\n\t\t/height : 800,\n\t\t/x : 100,\n\t\t/page : 2\n\t}\n}"
+									"text" : "/* : {\n  /key : \"pdf\",\n  /val : {\n    /id : \"newpdf\",\n    /href : \"/media/flint_piccolo_excerpt.pdf\",\n    /width : 400,\n    /height : 800,\n    /x : 100,\n    /page : 2\n  }\n}"
 								}
 
 							}
@@ -14469,8 +14458,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14509,7 +14498,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-3",
-									"linecount" : 43,
+									"linecount" : 44,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14517,7 +14506,7 @@
 									"patching_rect" : [ 746.0, 63.912622690200806, 222.0, 581.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 64, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 3, 52, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 3, 12, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 2, -4, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 103, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 103, 114, 111, 117, 112, 105, 101, 0, 0, 0, 2, -64, 47, 99, 104, 105, 108, 100, 0, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, -104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 99, 116, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 114, 101, 99, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 16, 47, 119, 105, 100, 116, 104, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 104, 101, 105, 103, 104, 116, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 114, 101, 100, 0, 0, 0, 0, -108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 108, 101, 102, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 101, 120, 116, 0, 0, 0, 44, 115, 0, 0, 38, 35, 120, 69, 48, 53, 48, 0, 0, 0, 0, 28, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 98, 114, 97, 118, 117, 114, 97, 95, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 40, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 50, 0, 0, 1, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 103, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 103, 103, 0, 0, 0, 0, 1, 64, 47, 99, 104, 105, 108, 100, 0, 0, 44, 46, 46, 0, 0, 0, 0, -104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 99, 116, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 114, 101, 99, 50, 116, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 119, 105, 100, 116, 104, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 104, 101, 105, 103, 104, 116, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 114, 101, 100, 0, 0, 0, 0, -108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 108, 101, 50, 102, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 101, 120, 116, 0, 0, 0, 44, 115, 0, 0, 38, 35, 120, 69, 48, 53, 48, 0, 0, 0, 0, 28, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 98, 114, 97, 118, 117, 114, 97, 95, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 40, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 2, 88 ],
 									"saved_bundle_length" : 852,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/new : \"g\",\n\t\t/id : \"groupie\",\n\t\t/child : [{\n\t\t\t/new : \"rect\",\n\t\t\t/id : \"rect\",\n\t\t\t/x : 5,\n\t\t\t/y : 5,\n\t\t\t/width : 100,\n\t\t\t/height : 100,\n\t\t\t/fill : \"red\"\n\t\t}, {\n\t\t\t/id : \"clef\",\n\t\t\t/new : \"text\",\n\t\t\t/text : \"&#xE050\",\n\t\t\t/class : \"bravura_text\",\n\t\t\t/x : 40,\n\t\t\t/y : 50\n\t\t}, {\n\t\t\t/new : \"g\",\n\t\t\t/id : \"gg\",\n\t\t\t/child : [{\n\t\t\t\t/new : \"rect\",\n\t\t\t\t/id : \"rec2t\",\n\t\t\t\t/x : 5,\n\t\t\t\t/y : 100,\n\t\t\t\t/width : 100,\n\t\t\t\t/height : 100,\n\t\t\t\t/fill : \"red\"\n\t\t\t}, {\n\t\t\t\t/id : \"cle2f\",\n\t\t\t\t/new : \"text\",\n\t\t\t\t/text : \"&#xE050\",\n\t\t\t\t/class : \"bravura_text\",\n\t\t\t\t/x : 40,\n\t\t\t\t/y : 600\n\t\t\t}]\n\t\t}]\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /new : \"g\",\n    /id : \"groupie\",\n    /child : [{\n      /new : \"rect\",\n      /id : \"rect\",\n      /x : 5,\n      /y : 5,\n      /width : 100,\n      /height : 100,\n      /fill : \"red\"\n    }, {\n      /id : \"clef\",\n      /new : \"text\",\n      /text : \"&#xE050\",\n      /class : \"bravura_text\",\n      /x : 40,\n      /y : 50\n    }, {\n      /new : \"g\",\n      /id : \"gg\",\n      /child : [{\n        /new : \"rect\",\n        /id : \"rec2t\",\n        /x : 5,\n        /y : 100,\n        /width : 100,\n        /height : 100,\n        /fill : \"red\"\n      }, {\n        /id : \"cle2f\",\n        /new : \"text\",\n        /text : \"&#xE050\",\n        /class : \"bravura_text\",\n        /x : 40,\n        /y : 600\n      }]\n    }]\n  }\n}"
 								}
 
 							}
@@ -14526,7 +14515,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-4",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14534,7 +14523,7 @@
 									"patching_rect" : [ 172.980582058429718, 821.912622690200806, 136.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 42, 0, 0, 0 ],
 									"saved_bundle_length" : 92,
-									"text" : "/* : {\n\t/key : \"clear\",\n\t/val : \"*\"\n}"
+									"text" : "/* : {\n  /key : \"clear\",\n  /val : \"*\"\n}"
 								}
 
 							}
@@ -14551,7 +14540,7 @@
 									"patching_rect" : [ 168.980582058429718, 742.291262269020081, 215.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 84, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 72, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 28, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 115, 0, 111, 118, 101, 114, 108, 97, 121, 0, 98, 97, 99, 107, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 104,
-									"text" : "/* : {\n\t/key : \"clear\",\n\t/val : [\"overlay\", \"back\"]\n}"
+									"text" : "/* : {\n  /key : \"clear\",\n  /val : [\"overlay\", \"back\"]\n}"
 								}
 
 							}
@@ -14592,7 +14581,7 @@
 									"patching_rect" : [ 434.0, 490.912622690200806, 143.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -84, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, 120, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 99, 0, 0, 0, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 52, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 108, 101, 102, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 70 ],
 									"saved_bundle_length" : 192,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/id : \"c\",\n\t\t/r : 10\n\t}, {\n\t\t/id : \"clef\",\n\t\t/y : 70\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /id : \"c\",\n    /r : 10\n  }, {\n    /id : \"clef\",\n    /y : 70\n  }]\n}"
 								}
 
 							}
@@ -14612,7 +14601,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-22",
-									"linecount" : 28,
+									"linecount" : 30,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14620,7 +14609,7 @@
 									"patching_rect" : [ 274.0, 54.912622690200806, 179.0, 391.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 28, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, 16, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, -24, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, -104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 98, 97, 99, 107, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 99, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 114, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 119, 105, 100, 116, 104, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 104, 101, 105, 103, 104, 116, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, -104, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 109, 97, 105, 110, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 99, 0, 0, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, -106, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, -106, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 25, 0, 0, 0, 20, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 112, 105, 110, 107, 0, 0, 0, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 111, 118, 101, 114, 108, 97, 121, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 100, 111, 116, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, -106, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, -106, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 24, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 108, 105, 103, 104, 116, 103, 114, 97, 121, 0, 0, 0 ],
 									"saved_bundle_length" : 560,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/parent : \"back\",\n\t\t/new : \"rect\",\n\t\t/id : \"r\",\n\t\t/x : 100,\n\t\t/y : 100,\n\t\t/width : 100,\n\t\t/height : 100\n\t}, {\n\t\t/parent : \"main\",\n\t\t/new : \"circle\",\n\t\t/id : \"c\",\n\t\t/cx : 150,\n\t\t/cy : 150,\n\t\t/r : 25,\n\t\t/fill : \"pink\"\n\t}, {\n\t\t/parent : \"overlay\",\n\t\t/new : \"circle\",\n\t\t/id : \"dot\",\n\t\t/cx : 150,\n\t\t/cy : 150,\n\t\t/r : 5,\n\t\t/fill : \"lightgray\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /parent : \"back\",\n    /new : \"rect\",\n    /id : \"r\",\n    /x : 100,\n    /y : 100,\n    /width : 100,\n    /height : 100\n  }, {\n    /parent : \"main\",\n    /new : \"circle\",\n    /id : \"c\",\n    /cx : 150,\n    /cy : 150,\n    /r : 25,\n    /fill : \"pink\"\n  }, {\n    /parent : \"overlay\",\n    /new : \"circle\",\n    /id : \"dot\",\n    /cx : 150,\n    /cy : 150,\n    /r : 5,\n    /fill : \"lightgray\"\n  }]\n}"
 								}
 
 							}
@@ -14648,7 +14637,7 @@
 									"patching_rect" : [ 31.5, 48.912622690200806, 222.0, 228.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 76, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 24, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, 84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 109, 97, 105, 110, 45, 115, 118, 103, 0, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 103, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 99, 107, 0, 0, 0, 0, 0, 0, 0, 84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 109, 97, 105, 110, 45, 115, 118, 103, 0, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 103, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 109, 97, 105, 110, 0, 0, 0, 0, 0, 0, 0, 84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 109, 97, 105, 110, 45, 115, 118, 103, 0, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 103, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 111, 118, 101, 114, 108, 97, 121, 0 ],
 									"saved_bundle_length" : 352,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/parent : \"main-svg\",\n\t\t/new : \"g\",\n\t\t/id : \"back\"\n\t}, {\n\t\t/parent : \"main-svg\",\n\t\t/new : \"g\",\n\t\t/id : \"main\"\n\t}, {\n\t\t/parent : \"main-svg\",\n\t\t/new : \"g\",\n\t\t/id : \"overlay\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /parent : \"main-svg\",\n    /new : \"g\",\n    /id : \"back\"\n  }, {\n    /parent : \"main-svg\",\n    /new : \"g\",\n    /id : \"main\"\n  }, {\n    /parent : \"main-svg\",\n    /new : \"g\",\n    /id : \"overlay\"\n  }]\n}"
 								}
 
 							}
@@ -14665,7 +14654,7 @@
 									"patching_rect" : [ 597.0, 581.5, 121.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68, 47, 42, 47, 115, 118, 103, 0, 0, 44, 46, 0, 0, 0, 0, 0, 52, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 108, 101, 102, 0, 0, 0, 0, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 70 ],
 									"saved_bundle_length" : 88,
-									"text" : "/*/svg : {\n\t/id : \"clef\",\n\t/y : 70\n}"
+									"text" : "/*/svg : {\n  /id : \"clef\",\n  /y : 70\n}"
 								}
 
 							}
@@ -14674,7 +14663,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-5",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14682,7 +14671,7 @@
 									"patching_rect" : [ 168.980582058429718, 668.912622690200806, 136.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 76, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 109, 97, 105, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 96,
-									"text" : "/* : {\n\t/key : \"clear\",\n\t/val : \"main\"\n}"
+									"text" : "/* : {\n  /key : \"clear\",\n  /val : \"main\"\n}"
 								}
 
 							}
@@ -14691,7 +14680,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-6",
-									"linecount" : 29,
+									"linecount" : 30,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14699,7 +14688,7 @@
 									"patching_rect" : [ 473.0, 54.912622690200806, 215.0, 405.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 2, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, -84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 109, 97, 105, 110, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 108, 101, 102, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 101, 120, 116, 0, 0, 0, 44, 115, 0, 0, 38, 35, 120, 69, 48, 53, 48, 0, 0, 0, 0, 28, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 98, 114, 97, 118, 117, 114, 97, 95, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 40, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 50, 0, 0, 0, -80, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 98, 97, 99, 107, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 99, 116, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 114, 101, 99, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 16, 47, 119, 105, 100, 116, 104, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 104, 101, 105, 103, 104, 116, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 114, 101, 100, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 111, 118, 101, 114, 108, 97, 121, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 50, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 50, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 20, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 98, 108, 117, 101, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 604,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/parent : \"main\",\n\t\t/id : \"clef\",\n\t\t/new : \"text\",\n\t\t/text : \"&#xE050\",\n\t\t/class : \"bravura_text\",\n\t\t/x : 40,\n\t\t/y : 50\n\t}, {\n\t\t/parent : \"back\",\n\t\t/new : \"rect\",\n\t\t/id : \"rect\",\n\t\t/x : 5,\n\t\t/y : 5,\n\t\t/width : 100,\n\t\t/height : 100,\n\t\t/fill : \"red\"\n\t}, {\n\t\t/parent : \"overlay\",\n\t\t/new : \"circle\",\n\t\t/id : \"circle\",\n\t\t/cx : 50,\n\t\t/cy : 50,\n\t\t/r : 10,\n\t\t/fill : \"blue\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /parent : \"main\",\n    /id : \"clef\",\n    /new : \"text\",\n    /text : \"&#xE050\",\n    /class : \"bravura_text\",\n    /x : 40,\n    /y : 50\n  }, {\n    /parent : \"back\",\n    /new : \"rect\",\n    /id : \"rect\",\n    /x : 5,\n    /y : 5,\n    /width : 100,\n    /height : 100,\n    /fill : \"red\"\n  }, {\n    /parent : \"overlay\",\n    /new : \"circle\",\n    /id : \"circle\",\n    /cx : 50,\n    /cy : 50,\n    /r : 10,\n    /fill : \"blue\"\n  }]\n}"
 								}
 
 							}
@@ -14782,24 +14771,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14808,8 +14797,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14818,9 +14807,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14829,8 +14818,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14839,9 +14828,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14874,8 +14863,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14914,7 +14903,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-60",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14922,7 +14911,7 @@
 									"patching_rect" : [ 165.0, 550.0, 136.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 42, 0, 0, 0 ],
 									"saved_bundle_length" : 92,
-									"text" : "/* : {\n\t/key : \"clear\",\n\t/val : \"*\"\n}"
+									"text" : "/* : {\n  /key : \"clear\",\n  /val : \"*\"\n}"
 								}
 
 							}
@@ -14939,7 +14928,7 @@
 									"patching_rect" : [ 56.0, 766.0, 417.0, 119.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -84, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -124, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 112, 97, 116, 104, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 56, 47, 100, 0, 0, 44, 115, 0, 0, 77, 49, 48, 32, 56, 48, 32, 67, 32, 52, 48, 32, 49, 48, 44, 32, 54, 53, 32, 49, 48, 44, 32, 57, 53, 32, 56, 48, 32, 83, 32, 49, 53, 48, 32, 49, 53, 48, 44, 32, 49, 56, 48, 32, 56, 48, 0, 0 ],
 									"saved_bundle_length" : 204,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/new : \"path\",\n\t\t/id : \"foo\",\n\t\t/d : \"M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /new : \"path\",\n    /id : \"foo\",\n    /d : \"M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80\"\n  }\n}"
 								}
 
 							}
@@ -14948,7 +14937,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-14",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -14956,7 +14945,7 @@
 									"patching_rect" : [ 91.0, 437.0, 143.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 114, 101, 109, 111, 118, 101, 0, 0, 0, 0, 0, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 102, 111, 111, 0 ],
 									"saved_bundle_length" : 92,
-									"text" : "/* : {\n\t/key : \"remove\",\n\t/val : \"foo\"\n}"
+									"text" : "/* : {\n  /key : \"remove\",\n  /val : \"foo\"\n}"
 								}
 
 							}
@@ -14973,7 +14962,7 @@
 									"patching_rect" : [ 687.0, 664.5, 208.0, 255.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 80, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 28, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 20, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 111, 112, 101, 110, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 50, 0, 0, 0, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 105, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, -124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 20, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 99, 108, 111, 115, 101, 100, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 50, 0, 0, 0, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 120, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10 ],
 									"saved_bundle_length" : 356,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/new : \"circle\",\n\t\t/class : \"open\",\n\t\t/id : \"foo2\",\n\t\t/cx : 105,\n\t\t/cy : 100,\n\t\t/r : 10\n\t}, {\n\t\t/new : \"circle\",\n\t\t/class : \"closed\",\n\t\t/id : \"bar2\",\n\t\t/cx : 120,\n\t\t/cy : 100,\n\t\t/r : 10\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /new : \"circle\",\n    /class : \"open\",\n    /id : \"foo2\",\n    /cx : 105,\n    /cy : 100,\n    /r : 10\n  }, {\n    /new : \"circle\",\n    /class : \"closed\",\n    /id : \"bar2\",\n    /cx : 120,\n    /cy : 100,\n    /r : 10\n  }]\n}"
 								}
 
 							}
@@ -14990,7 +14979,7 @@
 									"patching_rect" : [ 912.0, 664.5, 208.0, 255.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 20, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 111, 112, 101, 110, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 15, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 20, 47, 99, 108, 97, 115, 115, 0, 0, 44, 115, 0, 0, 99, 108, 111, 115, 101, 100, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 45, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10 ],
 									"saved_bundle_length" : 348,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/new : \"circle\",\n\t\t/class : \"open\",\n\t\t/id : \"foo\",\n\t\t/cx : 15,\n\t\t/cy : 100,\n\t\t/r : 10\n\t}, {\n\t\t/new : \"circle\",\n\t\t/class : \"closed\",\n\t\t/id : \"bar\",\n\t\t/cx : 45,\n\t\t/cy : 100,\n\t\t/r : 10\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /new : \"circle\",\n    /class : \"open\",\n    /id : \"foo\",\n    /cx : 15,\n    /cy : 100,\n    /r : 10\n  }, {\n    /new : \"circle\",\n    /class : \"closed\",\n    /id : \"bar\",\n    /cx : 45,\n    /cy : 100,\n    /r : 10\n  }]\n}"
 								}
 
 							}
@@ -14998,7 +14987,7 @@
 								"box" : 								{
 									"id" : "obj-22",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
 									"patching_rect" : [ 1029.0, 575.0, 69.0, 22.0 ],
@@ -15011,7 +15000,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-20",
-									"linecount" : 11,
+									"linecount" : 12,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15019,7 +15008,7 @@
 									"patching_rect" : [ 25.0, 59.0, 136.0, 160.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -68, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -80, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -120, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 10 ],
 									"saved_bundle_length" : 208,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/new : \"line\",\n\t\t/id : \"foo\",\n\t\t/x1 : 10,\n\t\t/x2 : 20,\n\t\t/y1 : 10,\n\t\t/y2 : 10\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /new : \"line\",\n    /id : \"foo\",\n    /x1 : 10,\n    /x2 : 20,\n    /y1 : 10,\n    /y2 : 10\n  }\n}"
 								}
 
 							}
@@ -15028,7 +15017,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-19",
-									"linecount" : 18,
+									"linecount" : 20,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15036,7 +15025,7 @@
 									"patching_rect" : [ 183.0, 59.0, 136.0, 255.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 56, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 44, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 4, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20 ],
 									"saved_bundle_length" : 332,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/new : \"line\",\n\t\t/id : \"foo\",\n\t\t/x1 : 10,\n\t\t/x2 : 20,\n\t\t/y1 : 10,\n\t\t/y2 : 10\n\t}, {\n\t\t/new : \"line\",\n\t\t/id : \"bar\",\n\t\t/x1 : 10,\n\t\t/x2 : 20,\n\t\t/y1 : 20,\n\t\t/y2 : 20\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /new : \"line\",\n    /id : \"foo\",\n    /x1 : 10,\n    /x2 : 20,\n    /y1 : 10,\n    /y2 : 10\n  }, {\n    /new : \"line\",\n    /id : \"bar\",\n    /x1 : 10,\n    /x2 : 20,\n    /y1 : 20,\n    /y2 : 20\n  }]\n}"
 								}
 
 							}
@@ -15076,7 +15065,7 @@
 									"patching_rect" : [ 457.0, 716.5, 208.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 115, 115, 0, 0, 0, 0, 20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0 ],
 									"saved_bundle_length" : 92,
-									"text" : "/* : {\n\t/key : \"css\",\n\t/val : \"clear\"\n}"
+									"text" : "/* : {\n  /key : \"css\",\n  /val : \"clear\"\n}"
 								}
 
 							}
@@ -15093,7 +15082,7 @@
 									"patching_rect" : [ 941.0, 14.0, 309.0, 160.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -48, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -100, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 105, 109, 97, 103, 101, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 105, 105, 105, 0, 0, 0, 0, 28, 47, 104, 114, 101, 102, 0, 0, 0, 44, 115, 0, 0, 109, 101, 100, 105, 97, 47, 116, 101, 115, 116, 46, 112, 110, 103, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 104, 101, 105, 103, 104, 116, 0, 44, 105, 0, 0, 0, 0, 0, -56 ],
 									"saved_bundle_length" : 228,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/new : \"image\",\n\t\t/id : \"iii\",\n\t\t/href : \"media/test.png\",\n\t\t/x : 100,\n\t\t/y : 0,\n\t\t/height : 200\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /new : \"image\",\n    /id : \"iii\",\n    /href : \"media/test.png\",\n    /x : 100,\n    /y : 0,\n    /height : 200\n  }\n}"
 								}
 
 							}
@@ -15110,7 +15099,7 @@
 									"patching_rect" : [ 804.0, 302.0, 208.0, 242.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 100, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 115, 115, 0, 0, 0, 1, 48, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -100, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 101, 108, 101, 99, 116, 111, 114, 0, 0, 0, 44, 115, 0, 0, 46, 111, 112, 101, 110, 0, 0, 0, 0, 0, 0, 108, 47, 112, 114, 111, 112, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, 92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 2, 0, 0, 0, 20, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 110, 111, 110, 101, 0, 0, 0, 0, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 101, 108, 101, 99, 116, 111, 114, 0, 0, 0, 44, 115, 0, 0, 46, 99, 108, 111, 115, 101, 100, 0, 0, 0, 0, 80, 47, 112, 114, 111, 112, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 110, 111, 110, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0 ],
 									"saved_bundle_length" : 376,
-									"text" : "/* : {\n\t/key : \"css\",\n\t/val : [{\n\t\t/selector : \".open\",\n\t\t/props : {\n\t\t\t/stroke : \"black\",\n\t\t\t/stroke-width : 2,\n\t\t\t/fill : \"none\"\n\t\t}\n\t}, {\n\t\t/selector : \".closed\",\n\t\t/props : {\n\t\t\t/stroke : \"none\",\n\t\t\t/fill : \"black\"\n\t\t}\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"css\",\n  /val : [{\n    /selector : \".open\",\n    /props : {\n      /stroke : \"black\",\n      /stroke-width : 2,\n      /fill : \"none\"\n    }\n  }, {\n    /selector : \".closed\",\n    /props : {\n      /stroke : \"none\",\n      /fill : \"black\"\n    }\n  }]\n}"
 								}
 
 							}
@@ -15175,7 +15164,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-3",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15183,7 +15172,7 @@
 									"patching_rect" : [ 56.0, 346.0, 136.0, 65.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0 ],
 									"saved_bundle_length" : 92,
-									"text" : "/* : {\n\t/key : \"clear\",\n\t/val : \"svg\"\n}"
+									"text" : "/* : {\n  /key : \"clear\",\n  /val : \"svg\"\n}"
 								}
 
 							}
@@ -15192,7 +15181,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-7",
-									"linecount" : 24,
+									"linecount" : 28,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15200,7 +15189,7 @@
 									"patching_rect" : [ 651.0, 323.0, 136.0, 337.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -84, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 120, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 46, 0, 0, 0, 0, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 116, 101, 120, 116, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 116, 101, 120, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, -56, 0, 0, 0, 16, 47, 99, 104, 105, 108, 100, 0, 0, 44, 115, 0, 0, 121, 111, 33, 0 ],
 									"saved_bundle_length" : 448,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/new : \"line\",\n\t\t/id : \"foo\",\n\t\t/x1 : 10,\n\t\t/x2 : 20,\n\t\t/y1 : 10,\n\t\t/y2 : 10\n\t}, {\n\t\t/new : \"line\",\n\t\t/id : \"bar\",\n\t\t/x1 : 10,\n\t\t/x2 : 20,\n\t\t/y1 : 20,\n\t\t/y2 : 20\n\t}, {\n\t\t/new : \"text\",\n\t\t/id : \"tex\",\n\t\t/x : 100,\n\t\t/y : 200,\n\t\t/child : \"yo!\"\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /new : \"line\",\n    /id : \"foo\",\n    /x1 : 10,\n    /x2 : 20,\n    /y1 : 10,\n    /y2 : 10\n  }, {\n    /new : \"line\",\n    /id : \"bar\",\n    /x1 : 10,\n    /x2 : 20,\n    /y1 : 20,\n    /y2 : 20\n  }, {\n    /new : \"text\",\n    /id : \"tex\",\n    /x : 100,\n    /y : 200,\n    /child : \"yo!\"\n  }]\n}"
 								}
 
 							}
@@ -15209,7 +15198,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-6",
-									"linecount" : 16,
+									"linecount" : 22,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15217,7 +15206,7 @@
 									"patching_rect" : [ 453.0, 443.0, 172.0, 228.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 76, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 115, 115, 0, 0, 0, 1, 24, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 101, 108, 101, 99, 116, 111, 114, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 80, 47, 112, 114, 111, 112, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 114, 101, 100, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, -124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 101, 108, 101, 99, 116, 111, 114, 0, 0, 0, 44, 115, 0, 0, 35, 98, 97, 114, 0, 0, 0, 0, 0, 0, 0, 84, 47, 112, 114, 111, 112, 115, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10 ],
 									"saved_bundle_length" : 352,
-									"text" : "/* : {\n\t/key : \"css\",\n\t/val : [{\n\t\t/selector : \"line\",\n\t\t/props : {\n\t\t\t/stroke : \"red\",\n\t\t\t/stroke-width : 5\n\t\t}\n\t}, {\n\t\t/selector : \"#bar\",\n\t\t/props : {\n\t\t\t/stroke : \"black\",\n\t\t\t/stroke-width : 10\n\t\t}\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"css\",\n  /val : [{\n    /selector : \"line\",\n    /props : {\n      /stroke : \"red\",\n      /stroke-width : 5\n    }\n  }, {\n    /selector : \"#bar\",\n    /props : {\n      /stroke : \"black\",\n      /stroke-width : 10\n    }\n  }]\n}"
 								}
 
 							}
@@ -15226,7 +15215,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-5",
-									"linecount" : 17,
+									"linecount" : 21,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15234,7 +15223,7 @@
 									"patching_rect" : [ 712.0, 41.0, 165.0, 242.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 68, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 84, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 117, 101, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 80, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 114, 101, 100, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 8 ],
 									"saved_bundle_length" : 344,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/id : \"foo\",\n\t\t/x1 : 100,\n\t\t/style : {\n\t\t\t/stroke : \"blue\",\n\t\t\t/stroke-width : 1\n\t\t}\n\t}, {\n\t\t/id : \"bar\",\n\t\t/style : {\n\t\t\t/stroke : \"red\",\n\t\t\t/stroke-width : 8\n\t\t}\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /id : \"foo\",\n    /x1 : 100,\n    /style : {\n      /stroke : \"blue\",\n      /stroke-width : 1\n    }\n  }, {\n    /id : \"bar\",\n    /style : {\n      /stroke : \"red\",\n      /stroke-width : 8\n    }\n  }]\n}"
 								}
 
 							}
@@ -15243,7 +15232,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-4",
-									"linecount" : 17,
+									"linecount" : 21,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15251,7 +15240,7 @@
 									"patching_rect" : [ 530.0, 41.0, 172.0, 242.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 68, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 80, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 114, 101, 100, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 120, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 84, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1 ],
 									"saved_bundle_length" : 344,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/id : \"foo\",\n\t\t/x1 : 10,\n\t\t/style : {\n\t\t\t/stroke : \"red\",\n\t\t\t/stroke-width : 5\n\t\t}\n\t}, {\n\t\t/id : \"bar\",\n\t\t/style : {\n\t\t\t/stroke : \"black\",\n\t\t\t/stroke-width : 1\n\t\t}\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /id : \"foo\",\n    /x1 : 10,\n    /style : {\n      /stroke : \"red\",\n      /stroke-width : 5\n    }\n  }, {\n    /id : \"bar\",\n    /style : {\n      /stroke : \"black\",\n      /stroke-width : 1\n    }\n  }]\n}"
 								}
 
 							}
@@ -15272,7 +15261,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-1",
-									"linecount" : 25,
+									"linecount" : 28,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15280,7 +15269,7 @@
 									"patching_rect" : [ 329.0, 59.0, 172.0, 350.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -52, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 1, -64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, -104, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 46, 0, 0, 0, 0, -76, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 56, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 40, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 0, -48, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 98, 97, 114, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 20, 0, 0, 0, 84, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 68, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5 ],
 									"saved_bundle_length" : 480,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : [{\n\t\t/new : \"line\",\n\t\t/id : \"foo\",\n\t\t/x1 : 10,\n\t\t/x2 : 20,\n\t\t/y1 : 10,\n\t\t/y2 : 10,\n\t\t/style : {\n\t\t\t/stroke : \"black\"\n\t\t}\n\t}, {\n\t\t/new : \"line\",\n\t\t/id : \"bar\",\n\t\t/x1 : 10,\n\t\t/x2 : 20,\n\t\t/y1 : 20,\n\t\t/y2 : 20,\n\t\t/style : {\n\t\t\t/stroke : \"black\",\n\t\t\t/stroke-width : 5\n\t\t}\n\t}]\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : [{\n    /new : \"line\",\n    /id : \"foo\",\n    /x1 : 10,\n    /x2 : 20,\n    /y1 : 10,\n    /y2 : 10,\n    /style : {\n      /stroke : \"black\"\n    }\n  }, {\n    /new : \"line\",\n    /id : \"bar\",\n    /x1 : 10,\n    /x2 : 20,\n    /y1 : 20,\n    /y2 : 20,\n    /style : {\n      /stroke : \"black\",\n      /stroke-width : 5\n    }\n  }]\n}"
 								}
 
 							}
@@ -15432,24 +15421,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15458,8 +15447,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15468,9 +15457,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15479,8 +15468,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15489,9 +15478,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15524,8 +15513,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15564,7 +15553,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 9,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15572,7 +15561,7 @@
 									"patching_rect" : [ 6.666666865348816, 844.000019311904907, 150.0, 106.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -120, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 124, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 64, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 99, 109, 100, 0, 0, 0, 0, 44, 115, 0, 0, 115, 116, 97, 114, 116, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0 ],
 									"saved_bundle_length" : 156,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/cmd : \"start\",\n\t\t/id : \"fooTween\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /cmd : \"start\",\n    /id : \"fooTween\"\n  }\n}"
 								}
 
 							}
@@ -15589,7 +15578,7 @@
 									"patching_rect" : [ 164.666666865348816, 648.000019311904907, 301.0, 174.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -24, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, -80, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -96, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 84, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 115, 99, 111, 114, 101, 0, 0, 0, 0, 0, 16, 47, 100, 117, 114, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 72, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, -1, -1, -4, 24, 0, 0, 0, 20, 47, 101, 97, 115, 101, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 97, 114, 0, 0 ],
 									"saved_bundle_length" : 252,
-									"text" : "/* : {\n\t/key : \"tween\",\n\t/val : {\n\t\t/id : \"fooTween\",\n\t\t/target : \"#score\",\n\t\t/dur : 10,\n\t\t/vars : {\n\t\t\t/x : -1000,\n\t\t\t/ease : \"linear\"\n\t\t}\n\t}\n}"
+									"text" : "/* : {\n  /key : \"tween\",\n  /val : {\n    /id : \"fooTween\",\n    /target : \"#score\",\n    /dur : 10,\n    /vars : {\n      /x : -1000,\n      /ease : \"linear\"\n    }\n  }\n}"
 								}
 
 							}
@@ -15697,7 +15686,7 @@
 									"patching_rect" : [ 58.754718780517578, 139.731964111328125, 229.0, 119.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -96, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -108, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, 108, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 99, 111, 114, 101, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 117, 115, 101, 0, 0, 0, 0, 32, 47, 104, 114, 101, 102, 0, 0, 0, 44, 115, 0, 0, 47, 109, 101, 100, 105, 97, 47, 116, 101, 115, 116, 46, 115, 118, 103, 35, 49, 0, 0, 0 ],
 									"saved_bundle_length" : 180,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/id : \"score\",\n\t\t/new : \"use\",\n\t\t/href : \"/media/test.svg#1\"\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /id : \"score\",\n    /new : \"use\",\n    /href : \"/media/test.svg#1\"\n  }\n}"
 								}
 
 							}
@@ -15725,7 +15714,7 @@
 									"patching_rect" : [ 114.754718780517578, 322.6943359375, 395.0, 146.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -60, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, -72, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -112, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, -128, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 115, 99, 111, 114, 101, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 117, 115, 101, 0, 0, 0, 0, 36, 47, 104, 114, 101, 102, 0, 0, 0, 44, 115, 105, 0, 47, 109, 101, 100, 105, 97, 47, 116, 101, 115, 116, 46, 115, 118, 103, 35, 49, 0, 0, 0, 0, 0, 0, 1 ],
 									"saved_bundle_length" : 216,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/id : \"score\",\n\t\t/x : 100,\n\t\t/y : 100,\n\t\t/new : \"use\",\n\t\t/href : [\"/media/test.svg#1\", 1]\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /id : \"score\",\n    /x : 100,\n    /y : 100,\n    /new : \"use\",\n    /href : [\"/media/test.svg#1\", 1]\n  }\n}"
 								}
 
 							}
@@ -15782,24 +15771,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15808,8 +15797,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15818,9 +15807,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15829,8 +15818,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15839,9 +15828,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -15874,8 +15863,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15936,7 +15925,7 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-1",
-									"linecount" : 28,
+									"linecount" : 32,
 									"maxclass" : "o.compose",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -15944,7 +15933,7 @@
 									"patching_rect" : [ 100.0, 81.0, 186.0, 391.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 32, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 2, 20, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 1, -20, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 1, -36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 112, 97, 114, 101, 110, 116, 0, 44, 115, 0, 0, 100, 101, 102, 115, 0, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 103, 0, 0, 0, 0, 0, 0, 20, 47, 105, 100, 0, 44, 115, 0, 0, 110, 111, 116, 101, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 1, -124, 47, 99, 104, 105, 108, 100, 0, 0, 44, 46, 46, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 0, 12, 47, 120, 49, 0, 44, 105, 0, 0, 0, 0, 0, 10, 0, 0, 0, 12, 47, 121, 49, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 12, 47, 120, 50, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 50, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 60, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 44, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, -56, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 99, 105, 114, 99, 108, 101, 0, 0, 0, 0, 0, 12, 47, 99, 120, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 12, 47, 99, 121, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 12, 47, 114, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 108, 47, 115, 116, 121, 108, 101, 0, 0, 44, 46, 0, 0, 0, 0, 0, 92, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 115, 116, 114, 111, 107, 101, 45, 119, 105, 100, 116, 104, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 2, 0, 0, 0, 20, 47, 102, 105, 108, 108, 0, 0, 0, 44, 115, 0, 0, 110, 111, 110, 101, 0, 0, 0, 0, 0, 0, 0, 20, 47, 115, 116, 114, 111, 107, 101, 0, 44, 115, 0, 0, 98, 108, 97, 99, 107, 0, 0, 0 ],
 									"saved_bundle_length" : 564,
-									"text" : "/* : {\n\t/key : \"svg\",\n\t/val : {\n\t\t/parent : \"defs\",\n\t\t/new : \"g\",\n\t\t/id : \"noteline\",\n\t\t/child : [{\n\t\t\t/new : \"line\",\n\t\t\t/x1 : 10,\n\t\t\t/y1 : 5,\n\t\t\t/x2 : 100,\n\t\t\t/y2 : 5,\n\t\t\t/style : {\n\t\t\t\t/stroke-width : 1\n\t\t\t}\n\t\t}, {\n\t\t\t/new : \"circle\",\n\t\t\t/cx : 5,\n\t\t\t/cy : 5,\n\t\t\t/r : 5,\n\t\t\t/style : {\n\t\t\t\t/stroke-width : 2,\n\t\t\t\t/fill : \"none\",\n\t\t\t\t/stroke : \"black\"\n\t\t\t}\n\t\t}]\n\t}\n}"
+									"text" : "/* : {\n  /key : \"svg\",\n  /val : {\n    /parent : \"defs\",\n    /new : \"g\",\n    /id : \"noteline\",\n    /child : [{\n      /new : \"line\",\n      /x1 : 10,\n      /y1 : 5,\n      /x2 : 100,\n      /y2 : 5,\n      /style : {\n        /stroke-width : 1\n      }\n    }, {\n      /new : \"circle\",\n      /cx : 5,\n      /cy : 5,\n      /r : 5,\n      /style : {\n        /stroke-width : 2,\n        /fill : \"none\",\n        /stroke : \"black\"\n      }\n    }]\n  }\n}"
 								}
 
 							}
@@ -15961,7 +15950,7 @@
 									"patching_rect" : [ 302.5, 315.0, 215.0, 269.0 ],
 									"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 104, 47, 42, 0, 0, 44, 46, 46, 0, 0, 0, 0, -88, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 115, 118, 103, 0, 0, 0, 0, -128, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 112, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 110, 101, 119, 0, 0, 0, 0, 44, 115, 0, 0, 117, 115, 101, 0, 0, 0, 0, 12, 47, 105, 100, 0, 44, 115, 0, 0, 102, 111, 111, 0, 0, 0, 0, 24, 47, 104, 114, 101, 102, 0, 0, 0, 44, 115, 0, 0, 35, 110, 111, 116, 101, 108, 105, 110, 101, 0, 0, 0, 0, 0, 0, 12, 47, 120, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, 12, 47, 121, 0, 0, 44, 105, 0, 0, 0, 0, 0, 100, 0, 0, 0, -80, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 116, 119, 101, 101, 110, 0, 0, 0, 0, 0, 0, -124, 47, 118, 97, 108, 0, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 116, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 116, 97, 114, 103, 101, 116, 0, 44, 115, 0, 0, 35, 102, 111, 111, 0, 0, 0, 0, 0, 0, 0, 16, 47, 105, 100, 0, 44, 115, 0, 0, 116, 101, 115, 116, 0, 0, 0, 0, 0, 0, 0, 52, 47, 118, 97, 114, 115, 0, 0, 0, 44, 46, 0, 0, 0, 0, 0, 36, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 115, 99, 97, 108, 101, 89, 0, 44, 105, 0, 0, 0, 0, 0, 2 ],
 									"saved_bundle_length" : 380,
-									"text" : "/* : [{\n\t/key : \"svg\",\n\t/val : {\n\t\t/new : \"use\",\n\t\t/id : \"foo\",\n\t\t/href : \"#noteline\",\n\t\t/x : 100,\n\t\t/y : 100\n\t}\n}, {\n\t/key : \"tween\",\n\t/val : {\n\t\t/target : \"#foo\",\n\t\t/id : \"test\",\n\t\t/vars : {\n\t\t\t/scaleY : 2\n\t\t}\n\t}\n}]"
+									"text" : "/* : [{\n  /key : \"svg\",\n  /val : {\n    /new : \"use\",\n    /id : \"foo\",\n    /href : \"#noteline\",\n    /x : 100,\n    /y : 100\n  }\n}, {\n  /key : \"tween\",\n  /val : {\n    /target : \"#foo\",\n    /id : \"test\",\n    /vars : {\n      /scaleY : 2\n    }\n  }\n}]"
 								}
 
 							}
@@ -15995,24 +15984,24 @@
  ],
 						"styles" : [ 							{
 								"name" : "black on white",
-								"number" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
 								"umenu" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
+										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 										"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
-
+,
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+								}
+,
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16021,8 +16010,8 @@
 , 							{
 								"name" : "caption text",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
-									"fontface" : [ 2 ]
+									"fontface" : [ 2 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16031,9 +16020,9 @@
 , 							{
 								"name" : "section dividers",
 								"default" : 								{
-									"fontsize" : [ 15.0 ],
+									"fontface" : [ 3 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 3 ]
+									"fontsize" : [ 15.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16042,8 +16031,8 @@
 , 							{
 								"name" : "section info reg",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16052,9 +16041,9 @@
 , 							{
 								"name" : "titles",
 								"default" : 								{
-									"fontsize" : [ 20.0 ],
+									"fontface" : [ 1 ],
 									"fontname" : [ "Arial" ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 20.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16182,8 +16171,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16410,10 +16399,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "drawsocket.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
+				"name" : "Screen Shot 2021-03-17 at 22.21.18.png",
+				"bootpath" : "~/Documents/_____submissions/zurich/materials",
+				"patcherrelativepath" : "../../../../_____submissions/zurich/materials",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -16424,30 +16413,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "startscript.js",
-				"bootpath" : "~/Documents/___hfmt/drawsocket-min/code",
-				"patcherrelativepath" : "../../../../___hfmt/drawsocket-min/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Screen Shot 2021-03-17 at 22.21.18.png",
-				"bootpath" : "~/Documents/_____submissions/zurich/materials",
-				"patcherrelativepath" : "../../../../_____submissions/zurich/materials",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "drawsocket_logo_150.png",
-				"bootpath" : "~/Documents/dev-lib/drawsocket.github.io/assets/images",
-				"patcherrelativepath" : "../../../../dev-lib/drawsocket.github.io/assets/images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.accum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/odot/patchers/namespace",
-				"patcherrelativepath" : "../../odot/patchers/namespace",
+				"name" : "drawsocket.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16459,39 +16427,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "drawsocket_logo_150.png",
+				"bootpath" : "~/Documents/dev-lib/drawsocket.github.io/assets/images",
+				"patcherrelativepath" : "../../../../dev-lib/drawsocket.github.io/assets/images",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.accum.maxpat",
+				"bootpath" : "~/Documents/dev-lib/CNMAT-odot/patchers/namespace",
+				"patcherrelativepath" : "../../../../dev-lib/CNMAT-odot/patchers/namespace",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.dict.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.timetag.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -16499,31 +16449,74 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "o.dict.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.listenumerate.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "o.messageiterate.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.timetag.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "startscript.js",
+				"bootpath" : "~/Documents/___hfmt/drawsocket-min/code",
+				"patcherrelativepath" : "../../../../___hfmt/drawsocket-min/code",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
-				"number" : 				{
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontname" : [ "Arial" ]
-				}
-,
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
-
+,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+,
+				"number" : 				{
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16532,8 +16525,8 @@
 , 			{
 				"name" : "caption text",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
-					"fontface" : [ 2 ]
+					"fontface" : [ 2 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16542,9 +16535,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
-					"fontsize" : [ 15.0 ],
+					"fontface" : [ 3 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontsize" : [ 15.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16553,8 +16546,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16563,9 +16556,9 @@
 , 			{
 				"name" : "titles",
 				"default" : 				{
-					"fontsize" : [ 20.0 ],
+					"fontface" : [ 1 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 20.0 ]
 				}
 ,
 				"parentstyle" : "",

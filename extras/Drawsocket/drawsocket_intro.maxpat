@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 760.578125, 357.155357191392341, 296.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "each client browser is addressable by its /URL"
 				}
 
@@ -129,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.5, 5.5, 167.0, 20.0 ],
+					"patching_rect" : [ 262.5, 5.5, 167.0, 20.0 ],
 					"text" : "when running for the first time"
 				}
 
@@ -232,7 +231,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 185.0, 34.499999821186066, 25.0, 13.000000178813934 ],
+					"patching_rect" : [ 239.0, 34.499999821186066, 25.0, 13.000000178813934 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : ""
@@ -287,7 +286,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.5, 25.5, 234.0, 22.0 ],
+					"patching_rect" : [ 265.5, 25.5, 234.0, 22.0 ],
 					"text" : "install the drawsocket npm package "
 				}
 
@@ -420,13 +419,11 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-7",
-					"linecount" : 2,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 725.0, 377.0, 46.0 ],
-					"text" : "/port/localhost : \"http://localhost:3002\",\n/port/ip : \"http://192.168.178.36:3002\""
+					"patching_rect" : [ 115.0, 725.0, 377.0, 33.0 ]
 				}
 
 			}
@@ -437,8 +434,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 25.5, 162.0, 22.0 ],
-					"text" : "script npm install drawsocket"
+					"patching_rect" : [ 21.0, 25.5, 213.0, 22.0 ],
+					"text" : "script npm install drawsocket --prefix ./"
 				}
 
 			}
@@ -487,8 +484,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -619,8 +616,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -782,7 +779,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.5, 23.250000044703484, 234.0, 26.749999865889549 ],
+					"patching_rect" : [ 262.5, 23.250000044703484, 234.0, 26.749999865889549 ],
 					"proportion" : 0.5
 				}
 
@@ -1005,10 +1002,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "drawsocket.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
+				"name" : "Screen Shot 2021-03-17 at 22.21.18.png",
+				"bootpath" : "~/Documents/_____submissions/zurich/materials",
+				"patcherrelativepath" : "../../../../../_____submissions/zurich/materials",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -1019,17 +1016,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "startscript.js",
-				"bootpath" : "~/Documents/___hfmt/drawsocket-min/code",
-				"patcherrelativepath" : "../../../../../___hfmt/drawsocket-min/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Screen Shot 2021-03-17 at 22.21.18.png",
-				"bootpath" : "~/Documents/_____submissions/zurich/materials",
-				"patcherrelativepath" : "../../../../../_____submissions/zurich/materials",
-				"type" : "PNG",
+				"name" : "drawsocket.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/drawsocket-max/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1040,15 +1030,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.timetag.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.select.mxo",
+				"name" : "o.compose.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1056,7 +1038,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.route.mxo",
+				"name" : "o.display.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1064,35 +1046,50 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.compose.mxo",
+				"name" : "o.pack.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.display.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.timetag.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "startscript.js",
+				"bootpath" : "~/Documents/___hfmt/drawsocket-min/code",
+				"patcherrelativepath" : "../../../../../___hfmt/drawsocket-min/code",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "black on white",
-				"number" : 				{
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontname" : [ "Arial" ]
-				}
-,
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
-
+,
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+,
+				"number" : 				{
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1112,8 +1109,8 @@
 				"name" : "section dividers",
 				"default" : 				{
 					"fontface" : [ 3 ],
-					"fontsize" : [ 15.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 15.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1122,8 +1119,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1133,16 +1130,14 @@
 				"name" : "titles",
 				"default" : 				{
 					"fontface" : [ 1 ],
-					"fontsize" : [ 20.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 20.0 ]
 				}
 ,
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
-		"editing_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ]
+ ]
 	}
 
 }
